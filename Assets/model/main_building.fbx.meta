@@ -7,6 +7,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Gold_Zax
+    second: {fileID: 2100000, guid: c63641f1e55a6b246a189b89375b33e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass_Dark_Green
+    second: {fileID: 2100000, guid: e316f1e829886af4893ceb610f56be27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: _Brick_Antique_01_1
     second: {fileID: 2100000, guid: 8f26f7d882c10a54ba10c515ea553fdc, type: 2}
   - first:
@@ -53,7 +63,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: grass_crete_1
-    second: {fileID: 2100000, guid: 92902dfe581dcdf439a088766b39e011, type: 2}
+    second: {fileID: 2100000, guid: cd37000761a1aef48b469569c1388d30, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -64,16 +74,6 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: ground
     second: {fileID: 2100000, guid: 2d807b8e607b8de419eda8a1e42792a2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert2
-    second: {fileID: 2100000, guid: bc4d8dfc66fec584daa1c72c86dfe72d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert3
-    second: {fileID: 2100000, guid: a2b81617bd5851e4492145a69002548c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -113,7 +113,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: white
-    second: {fileID: 2100000, guid: 800e5e7e716eacd46abecdd2d482660f, type: 2}
+    second: {fileID: 2100000, guid: 024cb59c7c3e48340872460c87b8d154, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
