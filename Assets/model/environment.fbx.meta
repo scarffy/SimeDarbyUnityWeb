@@ -1,9 +1,84 @@
 fileFormatVersion: 2
 guid: 0512dc09b0745234c8cc87401d689a0d
 ModelImporter:
-  serializedVersion: 21100
+  serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_M09
+    second: {fileID: 2100000, guid: 6d7fcfe86a693cd49a3b072d24a7a390, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete
+    second: {fileID: 2100000, guid: d23f6af6ec4af1e408c623a7a396aba2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Scored_Jointless
+    second: {fileID: 2100000, guid: d2cb1a65ed4960a4b87e31c3075e31fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Color_A01_1
+    second: {fileID: 2100000, guid: fca289c7ea50d3e4baa7452d1288d2e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Concrete_Aggregate_Smoke_2
+    second: {fileID: 2100000, guid: a46b50df21912c54796e0e741b42b618, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Grass_Dark_Green_2
+    second: {fileID: 2100000, guid: 47241ad170e13364d9f863c3154f4280, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: banner_DimGray
+    second: {fileID: 2100000, guid: f20c6ba70396c49488eab27d5f6bae8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: banner_Sime_Darby_Property_Logo_720x340
+    second: {fileID: 2100000, guid: 11fa0b8f395286945bfe37a13ca817df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: banner_SlateGray
+    second: {fileID: 2100000, guid: 33b56ac139ba67046be4230b5c96089e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: banner_aquamarine
+    second: {fileID: 2100000, guid: efc5aacd516afa447b929ef6f2a630e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass_crete_1
+    second: {fileID: 2100000, guid: d67f69b083d1bf54ba7a78d30f3c9e5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pole_lighting
+    second: {fileID: 2100000, guid: b96600e233c77ce429a7d2d58f50715c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road
+    second: {fileID: 2100000, guid: cc1bf65fe653d2049afe3e35f75ef746, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walk50banner
+    second: {fileID: 2100000, guid: 2a83cc2f121b90241b84c952a67a430c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: 22082321bd3bc47459374d7e21421d8f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -45,7 +120,7 @@ ModelImporter:
     importLights: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
