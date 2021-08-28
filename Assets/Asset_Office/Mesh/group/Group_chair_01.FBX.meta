@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: ecd31c9e9b4eeab4dab6c3d0c98187b9
+timeCreated: 1504170147
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: chair01
+    100002: chair01 1
+    100004: chair01 10
+    100006: chair01 11
+    100008: chair01 2
+    100010: chair01 3
+    100012: chair01 4
+    100014: chair01 5
+    100016: chair01 6
+    100018: chair01 7
+    100020: chair01 8
+    100022: chair01 9
+    100024: chair02
+    100026: chair02 1
+    100028: chair02 10
+    100030: chair02 11
+    100032: chair02 2
+    100034: chair02 3
+    100036: chair02 4
+    100038: chair02 5
+    100040: chair02 6
+    100042: chair02 7
+    100044: chair02 8
+    100046: chair02 9
+    100048: chair_01
+    100050: chair_02
+    100052: chair_03
+    100054: chair_04
+    100056: chair_05
+    100058: chair_06
+    100060: chair_07
+    100062: chair_08
+    100064: chair_09
+    100066: chair_10
+    100068: chair_11
+    100070: chair_12
+    100072: //RootNode
+    400000: chair01
+    400002: chair01 1
+    400004: chair01 10
+    400006: chair01 11
+    400008: chair01 2
+    400010: chair01 3
+    400012: chair01 4
+    400014: chair01 5
+    400016: chair01 6
+    400018: chair01 7
+    400020: chair01 8
+    400022: chair01 9
+    400024: chair02
+    400026: chair02 1
+    400028: chair02 10
+    400030: chair02 11
+    400032: chair02 2
+    400034: chair02 3
+    400036: chair02 4
+    400038: chair02 5
+    400040: chair02 6
+    400042: chair02 7
+    400044: chair02 8
+    400046: chair02 9
+    400048: chair_01
+    400050: chair_02
+    400052: chair_03
+    400054: chair_04
+    400056: chair_05
+    400058: chair_06
+    400060: chair_07
+    400062: chair_08
+    400064: chair_09
+    400066: chair_10
+    400068: chair_11
+    400070: chair_12
+    400072: //RootNode
+    2300000: chair01
+    2300002: chair01 1
+    2300004: chair01 10
+    2300006: chair01 11
+    2300008: chair01 2
+    2300010: chair01 3
+    2300012: chair01 4
+    2300014: chair01 5
+    2300016: chair01 6
+    2300018: chair01 7
+    2300020: chair01 8
+    2300022: chair01 9
+    2300024: chair02
+    2300026: chair02 1
+    2300028: chair02 10
+    2300030: chair02 11
+    2300032: chair02 2
+    2300034: chair02 3
+    2300036: chair02 4
+    2300038: chair02 5
+    2300040: chair02 6
+    2300042: chair02 7
+    2300044: chair02 8
+    2300046: chair02 9
+    3300000: chair01
+    3300002: chair01 1
+    3300004: chair01 10
+    3300006: chair01 11
+    3300008: chair01 2
+    3300010: chair01 3
+    3300012: chair01 4
+    3300014: chair01 5
+    3300016: chair01 6
+    3300018: chair01 7
+    3300020: chair01 8
+    3300022: chair01 9
+    3300024: chair02
+    3300026: chair02 1
+    3300028: chair02 10
+    3300030: chair02 11
+    3300032: chair02 2
+    3300034: chair02 3
+    3300036: chair02 4
+    3300038: chair02 5
+    3300040: chair02 6
+    3300042: chair02 7
+    3300044: chair02 8
+    3300046: chair02 9
+    4300000: chair02
+    4300002: chair01
+    4300004: chair02
+    4300006: chair01
+    4300008: chair02
+    4300010: chair01
+    4300012: chair02
+    4300014: chair01
+    4300016: chair02
+    4300018: chair01
+    4300020: chair02
+    4300022: chair01
+    4300024: chair01
+    4300026: chair02
+    4300028: chair01
+    4300030: chair02
+    4300032: chair02
+    4300034: chair01
+    4300036: chair02
+    4300038: chair01
+    4300040: chair01
+    4300042: chair02
+    4300044: chair01
+    4300046: chair02
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

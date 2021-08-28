@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: cd283201b9a35da4cb720240e669c533
+timeCreated: 1504171081
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: book01
+    100002: book01 1
+    100004: book01 2
+    100006: book01 3
+    100008: book02
+    100010: book02 1
+    100012: book02 2
+    100014: book02 3
+    100016: books_01
+    100018: books_02
+    100020: books_03
+    100022: books_04
+    100024: cabinet004
+    100026: cabinet005
+    100028: cabinet006
+    100030: cabinet01
+    100032: cabinet01 1
+    100034: cabinet02
+    100036: cabinet02 1
+    100038: cabinet03
+    100040: cabinet03 1
+    100042: cabinet_01
+    100044: cabinet_02
+    100046: cabinet_03
+    100048: file book_01
+    100050: file book_02
+    100052: file book_03
+    100054: //RootNode
+    400000: book01
+    400002: book01 1
+    400004: book01 2
+    400006: book01 3
+    400008: book02
+    400010: book02 1
+    400012: book02 2
+    400014: book02 3
+    400016: books_01
+    400018: books_02
+    400020: books_03
+    400022: books_04
+    400024: cabinet004
+    400026: cabinet005
+    400028: cabinet006
+    400030: cabinet01
+    400032: cabinet01 1
+    400034: cabinet02
+    400036: cabinet02 1
+    400038: cabinet03
+    400040: cabinet03 1
+    400042: cabinet_01
+    400044: cabinet_02
+    400046: cabinet_03
+    400048: file book_01
+    400050: file book_02
+    400052: file book_03
+    400054: //RootNode
+    2300000: book01
+    2300002: book01 1
+    2300004: book01 2
+    2300006: book01 3
+    2300008: book02
+    2300010: book02 1
+    2300012: book02 2
+    2300014: book02 3
+    2300016: cabinet004
+    2300018: cabinet005
+    2300020: cabinet006
+    2300022: cabinet01
+    2300024: cabinet01 1
+    2300026: cabinet02
+    2300028: cabinet02 1
+    2300030: cabinet03
+    2300032: cabinet03 1
+    2300034: file book_01
+    2300036: file book_02
+    2300038: file book_03
+    3300000: book01
+    3300002: book01 1
+    3300004: book01 2
+    3300006: book01 3
+    3300008: book02
+    3300010: book02 1
+    3300012: book02 2
+    3300014: book02 3
+    3300016: cabinet004
+    3300018: cabinet005
+    3300020: cabinet006
+    3300022: cabinet01
+    3300024: cabinet01 1
+    3300026: cabinet02
+    3300028: cabinet02 1
+    3300030: cabinet03
+    3300032: cabinet03 1
+    3300034: file book_01
+    3300036: file book_02
+    3300038: file book_03
+    4300000: cabinet03
+    4300002: cabinet01
+    4300004: cabinet02
+    4300006: cabinet004
+    4300008: cabinet005
+    4300010: cabinet006
+    4300012: file book_01
+    4300014: book01
+    4300016: book02
+    4300018: file book_02
+    4300020: book02
+    4300022: book01
+    4300024: book02
+    4300026: book01
+    4300028: book02
+    4300030: book01
+    4300032: file book_03
+    4300034: cabinet01
+    4300036: cabinet03
+    4300038: cabinet02
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: 6935852662857274ea1ba966b6e4b327
+timeCreated: 1504166017
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: books_01
+    100002: chair_01
+    100004: chair_02
+    100006: cup_01
+    100008: desk pad_01
+    100010: desk pad_02
+    100012: desk stand01
+    100014: desk stand01 1
+    100016: desk stand02
+    100018: desk stand02 1
+    100020: desk stand_01
+    100022: desk stand_02
+    100024: desk_01
+    100026: desk_02
+    100028: drawer01
+    100030: drawer01 1
+    100032: drawer02
+    100034: drawer02 1
+    100036: drawer03
+    100038: drawer03 1
+    100040: drawer_01
+    100042: drawer_02
+    100044: file book_01
+    100046: file book_02
+    100048: //RootNode
+    100050: keyboard_01
+    100052: keyboard_02
+    100054: monitor_01
+    100056: monitor_02
+    100058: mouse_01
+    100060: mouse_02
+    100062: notebook01
+    100064: notebook01 1
+    100066: notebook02
+    100068: notebook02 1
+    100070: notebook020
+    100072: notebook023
+    100074: notebook_01
+    100076: notebook_01 1
+    100078: notebook_02
+    100080: notebook_02 1
+    100082: Post-it01
+    100084: Post-it01 1
+    100086: Post-it02
+    100088: Post-it02 1
+    100090: Post-it03
+    100092: Post-it03 1
+    100094: Post-it04
+    100096: Post-it04 1
+    100098: Post-it_01
+    100100: Post-it_02
+    100102: speaker_01
+    100104: speaker_02
+    100106: speaker_03
+    100108: speaker_04
+    100110: takeout coffee_01
+    100112: telephone01
+    100114: telephone01 1
+    100116: telephone02
+    100118: telephone02 1
+    100120: telephone_01
+    100122: telephone_02
+    400000: books_01
+    400002: chair_01
+    400004: chair_02
+    400006: cup_01
+    400008: desk pad_01
+    400010: desk pad_02
+    400012: desk stand01
+    400014: desk stand01 1
+    400016: desk stand02
+    400018: desk stand02 1
+    400020: desk stand_01
+    400022: desk stand_02
+    400024: desk_01
+    400026: desk_02
+    400028: drawer01
+    400030: drawer01 1
+    400032: drawer02
+    400034: drawer02 1
+    400036: drawer03
+    400038: drawer03 1
+    400040: drawer_01
+    400042: drawer_02
+    400044: file book_01
+    400046: file book_02
+    400048: //RootNode
+    400050: keyboard_01
+    400052: keyboard_02
+    400054: monitor_01
+    400056: monitor_02
+    400058: mouse_01
+    400060: mouse_02
+    400062: notebook01
+    400064: notebook01 1
+    400066: notebook02
+    400068: notebook02 1
+    400070: notebook020
+    400072: notebook023
+    400074: notebook_01
+    400076: notebook_01 1
+    400078: notebook_02
+    400080: notebook_02 1
+    400082: Post-it01
+    400084: Post-it01 1
+    400086: Post-it02
+    400088: Post-it02 1
+    400090: Post-it03
+    400092: Post-it03 1
+    400094: Post-it04
+    400096: Post-it04 1
+    400098: Post-it_01
+    400100: Post-it_02
+    400102: speaker_01
+    400104: speaker_02
+    400106: speaker_03
+    400108: speaker_04
+    400110: takeout coffee_01
+    400112: telephone01
+    400114: telephone01 1
+    400116: telephone02
+    400118: telephone02 1
+    400120: telephone_01
+    400122: telephone_02
+    2300000: books_01
+    2300002: chair_01
+    2300004: chair_02
+    2300006: cup_01
+    2300008: desk pad_01
+    2300010: desk pad_02
+    2300012: desk stand01
+    2300014: desk stand01 1
+    2300016: desk stand02
+    2300018: desk stand02 1
+    2300020: desk_01
+    2300022: desk_02
+    2300024: drawer01
+    2300026: drawer01 1
+    2300028: drawer02
+    2300030: drawer02 1
+    2300032: drawer03
+    2300034: drawer03 1
+    2300036: file book_01
+    2300038: file book_02
+    2300040: keyboard_01
+    2300042: keyboard_02
+    2300044: monitor_01
+    2300046: monitor_02
+    2300048: mouse_01
+    2300050: mouse_02
+    2300052: notebook01
+    2300054: notebook01 1
+    2300056: notebook02
+    2300058: notebook02 1
+    2300060: notebook_01
+    2300062: notebook_02 1
+    2300064: Post-it01
+    2300066: Post-it01 1
+    2300068: Post-it02
+    2300070: Post-it02 1
+    2300072: Post-it03
+    2300074: Post-it03 1
+    2300076: Post-it04
+    2300078: Post-it04 1
+    2300080: speaker_01
+    2300082: speaker_02
+    2300084: speaker_03
+    2300086: speaker_04
+    2300088: takeout coffee_01
+    2300090: telephone01
+    2300092: telephone01 1
+    2300094: telephone02
+    2300096: telephone02 1
+    2300098: notebook_01 1
+    3300000: books_01
+    3300002: chair_01
+    3300004: chair_02
+    3300006: cup_01
+    3300008: desk pad_01
+    3300010: desk pad_02
+    3300012: desk stand01
+    3300014: desk stand01 1
+    3300016: desk stand02
+    3300018: desk stand02 1
+    3300020: desk_01
+    3300022: desk_02
+    3300024: drawer01
+    3300026: drawer01 1
+    3300028: drawer02
+    3300030: drawer02 1
+    3300032: drawer03
+    3300034: drawer03 1
+    3300036: file book_01
+    3300038: file book_02
+    3300040: keyboard_01
+    3300042: keyboard_02
+    3300044: monitor_01
+    3300046: monitor_02
+    3300048: mouse_01
+    3300050: mouse_02
+    3300052: notebook01
+    3300054: notebook01 1
+    3300056: notebook02
+    3300058: notebook02 1
+    3300060: notebook_01
+    3300062: notebook_02 1
+    3300064: Post-it01
+    3300066: Post-it01 1
+    3300068: Post-it02
+    3300070: Post-it02 1
+    3300072: Post-it03
+    3300074: Post-it03 1
+    3300076: Post-it04
+    3300078: Post-it04 1
+    3300080: speaker_01
+    3300082: speaker_02
+    3300084: speaker_03
+    3300086: speaker_04
+    3300088: takeout coffee_01
+    3300090: telephone01
+    3300092: telephone01 1
+    3300094: telephone02
+    3300096: telephone02 1
+    3300098: notebook_01 1
+    4300000: cup_01
+    4300002: takeout coffee_01
+    4300004: notebook_01
+    4300006: speaker_02
+    4300008: monitor_01
+    4300010: desk_01
+    4300012: desk pad_01
+    4300014: keyboard_01
+    4300016: books_01
+    4300018: mouse_01
+    4300020: speaker_01
+    4300022: desk_02
+    4300024: notebook_02
+    4300026: speaker_04
+    4300028: monitor_02
+    4300030: desk pad_02
+    4300032: keyboard_02
+    4300034: chair_02
+    4300036: mouse_02
+    4300038: speaker_03
+    4300040: file book_02
+    4300042: file book_01
+    4300044: Post-it01
+    4300046: Post-it02
+    4300048: Post-it03
+    4300050: Post-it04
+    4300052: Post-it02
+    4300054: Post-it01
+    4300056: Post-it03
+    4300058: Post-it04
+    4300060: notebook02
+    4300062: notebook01
+    4300064: telephone01
+    4300066: telephone02
+    4300068: notebook02
+    4300070: notebook01
+    4300072: drawer01
+    4300074: drawer03
+    4300076: drawer02
+    4300078: desk stand02
+    4300080: desk stand01
+    4300082: desk stand02
+    4300084: desk stand01
+    4300086: telephone01
+    4300088: telephone02
+    4300090: chair_01
+    4300092: drawer03
+    4300094: drawer01
+    4300096: drawer02
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

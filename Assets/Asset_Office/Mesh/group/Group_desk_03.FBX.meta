@@ -1,0 +1,664 @@
+fileFormatVersion: 2
+guid: 7724d09100d23fb4881853500d072494
+timeCreated: 1504160189
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: calculator_005
+    100002: calculator_006
+    100004: chair_005
+    100006: chair_008
+    100008: desk pad_005
+    100010: desk pad_006
+    100012: desk patition005
+    100014: desk patiton005
+    100016: desk stan1_002
+    100018: desk stan2_002
+    100020: desk stand005
+    100022: desk stand006
+    100024: desk stand_005
+    100026: desk stand_006
+    100028: desk007
+    100030: desk010
+    100032: desk_005
+    100034: desk_008
+    100036: drawer026
+    100038: drawer027
+    100040: drawer028
+    100042: drawer029
+    100044: drawer036
+    100046: drawer037
+    100048: drawer038
+    100050: drawer_006
+    100052: drawer_009
+    100054: file book019
+    100056: file book020
+    100058: file book021
+    100060: file book022
+    100062: file book034
+    100064: file book035
+    100066: file book036
+    100068: file book037
+    100070: file book038
+    100072: file books_005
+    100074: //RootNode
+    100076: keyboard_005
+    100078: keyboard_006
+    100080: monitor009
+    100082: monitor010
+    100084: monitor011
+    100086: monitor016
+    100088: mouse_005
+    100090: mouse_006
+    100092: Post-it006
+    100094: Post-it007
+    100096: Post-it008
+    100098: Post-it009
+    100100: Post-it010
+    100102: Post-it011
+    100104: Post-it012
+    100106: Post-it013
+    100108: Post-it_004
+    100110: Post-it_005
+    100112: shelf005
+    100114: shelf008
+    100116: speaker_013
+    100118: speaker_014
+    100120: speaker_015
+    100122: speaker_016
+    100124: takeout coffee_003
+    100126: calculator_01
+    100128: calculator_02
+    100130: chair_01
+    100132: chair_02
+    100134: desk
+    100136: desk 1
+    100138: desk pad_01
+    100140: desk pad_02
+    100142: desk patition
+    100144: desk patiton
+    100146: desk stan1
+    100148: desk stan1 1
+    100150: desk stand2
+    100152: desk stand2 1
+    100154: desk stand_01
+    100156: desk stand_02
+    100158: desk_01
+    100160: desk_02
+    100162: drawer01
+    100164: drawer02
+    100166: drawer03
+    100168: drawer1
+    100170: drawer2
+    100172: drawer3
+    100174: drawer_01
+    100176: drawer_02
+    100178: file book_01
+    100180: file book_02
+    100182: file book_03
+    100184: file book_04
+    100186: file book_05
+    100188: file book_06
+    100190: file book_07
+    100192: file book_08
+    100194: file book_09
+    100196: file books_02
+    100198: keyboard_01
+    100200: keyboard_02
+    100202: monitor_01
+    100204: monitor_02
+    100206: monitor_03
+    100208: monitor_04
+    100210: mouse_01
+    100212: mouse_02
+    100214: Post-it01
+    100216: Post-it02
+    100218: Post-it03
+    100220: Post-it04
+    100222: Post-it1
+    100224: Post-it2
+    100226: Post-it3
+    100228: Post-it4
+    100230: Post-it_01
+    100232: Post-it_02
+    100234: shelf_01
+    100236: shelf_02
+    100238: speaker_01
+    100240: speaker_02
+    100242: speaker_03
+    100244: speaker_04
+    100246: takeout coffee_01
+    100248: drawer01 1
+    100250: drawer02 1
+    100252: drawer03 1
+    400000: calculator_005
+    400002: calculator_006
+    400004: chair_005
+    400006: chair_008
+    400008: desk pad_005
+    400010: desk pad_006
+    400012: desk patition005
+    400014: desk patiton005
+    400016: desk stan1_002
+    400018: desk stan2_002
+    400020: desk stand005
+    400022: desk stand006
+    400024: desk stand_005
+    400026: desk stand_006
+    400028: desk007
+    400030: desk010
+    400032: desk_005
+    400034: desk_008
+    400036: drawer026
+    400038: drawer027
+    400040: drawer028
+    400042: drawer029
+    400044: drawer036
+    400046: drawer037
+    400048: drawer038
+    400050: drawer_006
+    400052: drawer_009
+    400054: file book019
+    400056: file book020
+    400058: file book021
+    400060: file book022
+    400062: file book034
+    400064: file book035
+    400066: file book036
+    400068: file book037
+    400070: file book038
+    400072: file books_005
+    400074: //RootNode
+    400076: keyboard_005
+    400078: keyboard_006
+    400080: monitor009
+    400082: monitor010
+    400084: monitor011
+    400086: monitor016
+    400088: mouse_005
+    400090: mouse_006
+    400092: Post-it006
+    400094: Post-it007
+    400096: Post-it008
+    400098: Post-it009
+    400100: Post-it010
+    400102: Post-it011
+    400104: Post-it012
+    400106: Post-it013
+    400108: Post-it_004
+    400110: Post-it_005
+    400112: shelf005
+    400114: shelf008
+    400116: speaker_013
+    400118: speaker_014
+    400120: speaker_015
+    400122: speaker_016
+    400124: takeout coffee_003
+    400126: calculator_01
+    400128: calculator_02
+    400130: chair_01
+    400132: chair_02
+    400134: desk
+    400136: desk 1
+    400138: desk pad_01
+    400140: desk pad_02
+    400142: desk patition
+    400144: desk patiton
+    400146: desk stan1
+    400148: desk stan1 1
+    400150: desk stand2
+    400152: desk stand2 1
+    400154: desk stand_01
+    400156: desk stand_02
+    400158: desk_01
+    400160: desk_02
+    400162: drawer01
+    400164: drawer02
+    400166: drawer03
+    400168: drawer1
+    400170: drawer2
+    400172: drawer3
+    400174: drawer_01
+    400176: drawer_02
+    400178: file book_01
+    400180: file book_02
+    400182: file book_03
+    400184: file book_04
+    400186: file book_05
+    400188: file book_06
+    400190: file book_07
+    400192: file book_08
+    400194: file book_09
+    400196: file books_02
+    400198: keyboard_01
+    400200: keyboard_02
+    400202: monitor_01
+    400204: monitor_02
+    400206: monitor_03
+    400208: monitor_04
+    400210: mouse_01
+    400212: mouse_02
+    400214: Post-it01
+    400216: Post-it02
+    400218: Post-it03
+    400220: Post-it04
+    400222: Post-it1
+    400224: Post-it2
+    400226: Post-it3
+    400228: Post-it4
+    400230: Post-it_01
+    400232: Post-it_02
+    400234: shelf_01
+    400236: shelf_02
+    400238: speaker_01
+    400240: speaker_02
+    400242: speaker_03
+    400244: speaker_04
+    400246: takeout coffee_01
+    400248: drawer01 1
+    400250: drawer02 1
+    400252: drawer03 1
+    2300000: calculator_005
+    2300002: calculator_006
+    2300004: chair_005
+    2300006: chair_008
+    2300008: desk pad_005
+    2300010: desk pad_006
+    2300012: desk patition005
+    2300014: desk patiton005
+    2300016: desk stan1_002
+    2300018: desk stan2_002
+    2300020: desk stand005
+    2300022: desk stand006
+    2300024: desk007
+    2300026: desk010
+    2300028: drawer027
+    2300030: drawer028
+    2300032: drawer029
+    2300034: drawer036
+    2300036: drawer037
+    2300038: drawer038
+    2300040: file book019
+    2300042: file book020
+    2300044: file book021
+    2300046: file book022
+    2300048: file book034
+    2300050: file book035
+    2300052: file book036
+    2300054: file book037
+    2300056: file book038
+    2300058: file books_005
+    2300060: keyboard_005
+    2300062: keyboard_006
+    2300064: monitor009
+    2300066: monitor010
+    2300068: monitor011
+    2300070: monitor016
+    2300072: mouse_005
+    2300074: mouse_006
+    2300076: Post-it006
+    2300078: Post-it007
+    2300080: Post-it008
+    2300082: Post-it009
+    2300084: Post-it010
+    2300086: Post-it011
+    2300088: Post-it012
+    2300090: Post-it013
+    2300092: shelf005
+    2300094: shelf008
+    2300096: speaker_013
+    2300098: speaker_014
+    2300100: speaker_015
+    2300102: speaker_016
+    2300104: takeout coffee_003
+    2300106: calculator_01
+    2300108: calculator_02
+    2300110: chair_01
+    2300112: chair_02
+    2300114: desk
+    2300116: desk 1
+    2300118: desk pad_01
+    2300120: desk pad_02
+    2300122: desk patition
+    2300124: desk patiton
+    2300126: desk stan1
+    2300128: desk stan1 1
+    2300130: desk stand2
+    2300132: desk stand2 1
+    2300134: drawer01
+    2300136: drawer02
+    2300138: drawer03
+    2300140: drawer1
+    2300142: drawer2
+    2300144: drawer3
+    2300146: file book_01
+    2300148: file book_02
+    2300150: file book_03
+    2300152: file book_04
+    2300154: file book_05
+    2300156: file book_06
+    2300158: file book_07
+    2300160: file book_08
+    2300162: file book_09
+    2300164: file books_02
+    2300166: keyboard_01
+    2300168: keyboard_02
+    2300170: monitor_01
+    2300172: monitor_02
+    2300174: monitor_03
+    2300176: monitor_04
+    2300178: mouse_01
+    2300180: mouse_02
+    2300182: Post-it01
+    2300184: Post-it02
+    2300186: Post-it03
+    2300188: Post-it04
+    2300190: Post-it1
+    2300192: Post-it2
+    2300194: Post-it3
+    2300196: Post-it4
+    2300198: shelf_01
+    2300200: shelf_02
+    2300202: speaker_01
+    2300204: speaker_02
+    2300206: speaker_03
+    2300208: speaker_04
+    2300210: takeout coffee_01
+    2300212: drawer01 1
+    2300214: drawer02 1
+    2300216: drawer03 1
+    3300000: calculator_005
+    3300002: calculator_006
+    3300004: chair_005
+    3300006: chair_008
+    3300008: desk pad_005
+    3300010: desk pad_006
+    3300012: desk patition005
+    3300014: desk patiton005
+    3300016: desk stan1_002
+    3300018: desk stan2_002
+    3300020: desk stand005
+    3300022: desk stand006
+    3300024: desk007
+    3300026: desk010
+    3300028: drawer027
+    3300030: drawer028
+    3300032: drawer029
+    3300034: drawer036
+    3300036: drawer037
+    3300038: drawer038
+    3300040: file book019
+    3300042: file book020
+    3300044: file book021
+    3300046: file book022
+    3300048: file book034
+    3300050: file book035
+    3300052: file book036
+    3300054: file book037
+    3300056: file book038
+    3300058: file books_005
+    3300060: keyboard_005
+    3300062: keyboard_006
+    3300064: monitor009
+    3300066: monitor010
+    3300068: monitor011
+    3300070: monitor016
+    3300072: mouse_005
+    3300074: mouse_006
+    3300076: Post-it006
+    3300078: Post-it007
+    3300080: Post-it008
+    3300082: Post-it009
+    3300084: Post-it010
+    3300086: Post-it011
+    3300088: Post-it012
+    3300090: Post-it013
+    3300092: shelf005
+    3300094: shelf008
+    3300096: speaker_013
+    3300098: speaker_014
+    3300100: speaker_015
+    3300102: speaker_016
+    3300104: takeout coffee_003
+    3300106: calculator_01
+    3300108: calculator_02
+    3300110: chair_01
+    3300112: chair_02
+    3300114: desk
+    3300116: desk 1
+    3300118: desk pad_01
+    3300120: desk pad_02
+    3300122: desk patition
+    3300124: desk patiton
+    3300126: desk stan1
+    3300128: desk stan1 1
+    3300130: desk stand2
+    3300132: desk stand2 1
+    3300134: drawer01
+    3300136: drawer02
+    3300138: drawer03
+    3300140: drawer1
+    3300142: drawer2
+    3300144: drawer3
+    3300146: file book_01
+    3300148: file book_02
+    3300150: file book_03
+    3300152: file book_04
+    3300154: file book_05
+    3300156: file book_06
+    3300158: file book_07
+    3300160: file book_08
+    3300162: file book_09
+    3300164: file books_02
+    3300166: keyboard_01
+    3300168: keyboard_02
+    3300170: monitor_01
+    3300172: monitor_02
+    3300174: monitor_03
+    3300176: monitor_04
+    3300178: mouse_01
+    3300180: mouse_02
+    3300182: Post-it01
+    3300184: Post-it02
+    3300186: Post-it03
+    3300188: Post-it04
+    3300190: Post-it1
+    3300192: Post-it2
+    3300194: Post-it3
+    3300196: Post-it4
+    3300198: shelf_01
+    3300200: shelf_02
+    3300202: speaker_01
+    3300204: speaker_02
+    3300206: speaker_03
+    3300208: speaker_04
+    3300210: takeout coffee_01
+    3300212: drawer01 1
+    3300214: drawer02 1
+    3300216: drawer03 1
+    4300000: file book037
+    4300002: chair_008
+    4300004: Post-it006
+    4300006: Post-it007
+    4300008: Post-it008
+    4300010: Post-it009
+    4300012: takeout coffee_003
+    4300014: speaker_013
+    4300016: monitor010
+    4300018: monitor011
+    4300020: desk stand005
+    4300022: desk stan1_002
+    4300024: shelf005
+    4300026: file book019
+    4300028: file book020
+    4300030: file book021
+    4300032: file book022
+    4300034: file book034
+    4300036: file book035
+    4300038: shelf008
+    4300040: file book036
+    4300042: Post-it010
+    4300044: Post-it011
+    4300046: Post-it012
+    4300048: Post-it013
+    4300050: file book038
+    4300052: keyboard_005
+    4300054: desk pad_005
+    4300056: mouse_005
+    4300058: desk pad_006
+    4300060: keyboard_006
+    4300062: mouse_006
+    4300064: drawer027
+    4300066: drawer028
+    4300068: drawer029
+    4300070: speaker_016
+    4300072: speaker_015
+    4300074: calculator_005
+    4300076: calculator_006
+    4300078: speaker_014
+    4300080: monitor016
+    4300082: monitor009
+    4300084: file books_005
+    4300086: chair_005
+    4300088: desk stand006
+    4300090: desk stan2_002
+    4300092: drawer036
+    4300094: drawer037
+    4300096: drawer038
+    4300098: desk patition005
+    4300100: desk010
+    4300102: desk007
+    4300104: desk patiton005
+    4300106: file book_01
+    4300108: chair_01
+    4300110: Post-it3
+    4300112: Post-it4
+    4300114: Post-it2
+    4300116: Post-it1
+    4300118: takeout coffee_01
+    4300120: speaker_03
+    4300122: monitor_04
+    4300124: monitor_03
+    4300126: desk stand2
+    4300128: desk stan1
+    4300130: shelf_02
+    4300132: file book_07
+    4300134: file book_06
+    4300136: file book_09
+    4300138: file book_08
+    4300140: file book_05
+    4300142: file book_04
+    4300144: shelf_01
+    4300146: file book_03
+    4300148: Post-it04
+    4300150: Post-it03
+    4300152: Post-it02
+    4300154: Post-it01
+    4300156: file book_02
+    4300158: keyboard_01
+    4300160: desk pad_01
+    4300162: mouse_01
+    4300164: desk pad_02
+    4300166: keyboard_02
+    4300168: mouse_02
+    4300170: drawer03
+    4300172: drawer02
+    4300174: drawer01
+    4300176: speaker_04
+    4300178: speaker_01
+    4300180: calculator_01
+    4300182: calculator_02
+    4300184: speaker_02
+    4300186: monitor_01
+    4300188: monitor_02
+    4300190: file books_02
+    4300192: chair_02
+    4300194: desk stand2
+    4300196: desk stan1
+    4300198: drawer2
+    4300200: drawer3
+    4300202: drawer1
+    4300204: desk patition
+    4300206: desk
+    4300208: desk
+    4300210: desk patiton
+    4300212: drawer03
+    4300214: drawer01
+    4300216: drawer02
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
