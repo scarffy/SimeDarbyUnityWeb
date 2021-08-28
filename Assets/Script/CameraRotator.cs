@@ -20,12 +20,17 @@ public class CameraRotator : MonoBehaviour
     private Vector2 swipeDirection; //swipe delta vector2
     private Quaternion cameraRot; // store the quaternion after the slerp operation
     private Touch touch;
-    private float distanceBetweenCameraAndTarget;
+    public float distanceBetweenCameraAndTarget;
     public float minXRotAngle = -80; //min angle around x axis
     public float maxXRotAngle = 80; // max angle around x axis
                                      //Mouse rotation related
     private float rotX; // around x
     private float rotY; // around y
+
+    [Space(20)]
+    //public float distCam;
+    public float ScrollSpeed = 10;
+
     private void Awake()
     {
         if (mainCamera == null)
@@ -56,6 +61,20 @@ public class CameraRotator : MonoBehaviour
             else if (rotX > maxXRotAngle)
             {
                 rotX = maxXRotAngle;
+            }
+
+            //distCam -= Input.GetAxis("Mouse ScrollWheel") * ScrollSpeed;
+            if(distanceBetweenCameraAndTarget >= 3 && distanceBetweenCameraAndTarget <= 10)
+            {
+                distanceBetweenCameraAndTarget -= Input.GetAxis("Mouse ScrollWheel") * ScrollSpeed;
+            }
+            if(distanceBetweenCameraAndTarget < 3)
+            {
+                distanceBetweenCameraAndTarget = 3;
+            }
+            else if(distanceBetweenCameraAndTarget > 10)
+            {
+                distanceBetweenCameraAndTarget = 10;
             }
         }
         else if (rotateMethod == RotateMethod.Touch)
