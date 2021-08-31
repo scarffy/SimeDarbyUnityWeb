@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
+
 public class CameraRotator : MonoBehaviour
 {
     public Transform target;
@@ -24,11 +24,17 @@ public class CameraRotator : MonoBehaviour
     public float minXRotAngle = -80; //min angle around x axis
     public float maxXRotAngle = 80; // max angle around x axis
                                      //Mouse rotation related
-    private float rotX; // around x
-    private float rotY; // around y
+    [SerializeField] private float rotX; // around x
+    [SerializeField] private float rotY; // around y
+
+    private Vector3 dir;
+    private Quaternion newQ;
+
+    [Space(10)]
+    public float minDistance = 3;
+    public float maxDistance = 10;
 
     [Space(20)]
-    //public float distCam;
     public float ScrollSpeed = 10;
 
     private void Awake()
@@ -43,6 +49,16 @@ public class CameraRotator : MonoBehaviour
     void Start()
     {
         distanceBetweenCameraAndTarget = Vector3.Distance(mainCamera.transform.position, target.position);
+
+        //rotX = 40;
+        //rotY = 0;
+        newQ = Quaternion.Euler(rotX, rotY, 0);
+        dir = new Vector3(-4703, -202, -distanceBetweenCameraAndTarget);
+        cameraRot = Quaternion.Slerp(cameraRot, newQ, slerpValue);
+        mainCamera.transform.position = target.position + cameraRot * dir;
+        mainCamera.transform.LookAt(target.position);
+
+        //SetCamPos();
     }
     // Update is called once per frame
     void Update()
@@ -64,17 +80,17 @@ public class CameraRotator : MonoBehaviour
             }
 
             //distCam -= Input.GetAxis("Mouse ScrollWheel") * ScrollSpeed;
-            if(distanceBetweenCameraAndTarget >= 3 && distanceBetweenCameraAndTarget <= 10)
+            if (distanceBetweenCameraAndTarget >= minDistance && distanceBetweenCameraAndTarget <= maxDistance)
             {
                 distanceBetweenCameraAndTarget -= Input.GetAxis("Mouse ScrollWheel") * ScrollSpeed;
             }
-            if(distanceBetweenCameraAndTarget < 3)
+            if (distanceBetweenCameraAndTarget < minDistance)
             {
-                distanceBetweenCameraAndTarget = 3;
+                distanceBetweenCameraAndTarget = minDistance;
             }
-            else if(distanceBetweenCameraAndTarget > 10)
+            else if (distanceBetweenCameraAndTarget > maxDistance)
             {
-                distanceBetweenCameraAndTarget = 10;
+                distanceBetweenCameraAndTarget = maxDistance;
             }
         }
         else if (rotateMethod == RotateMethod.Touch)
@@ -105,10 +121,11 @@ public class CameraRotator : MonoBehaviour
             }
         }
     }
+
     private void LateUpdate()
     {
-        Vector3 dir = new Vector3(0, 0, -distanceBetweenCameraAndTarget); //assign value to the distance between the maincamera and the target
-        Quaternion newQ; // value equal to the delta change of our mouse or touch position
+        dir = new Vector3(0, 0, -distanceBetweenCameraAndTarget); //assign value to the distance between the maincamera and the target
+        //Quaternion newQ; // value equal to the delta change of our mouse or touch position
         if (rotateMethod == RotateMethod.Mouse)
         {
             newQ = Quaternion.Euler(rotX, rotY, 0); //We are setting the rotation around X, Y, Z axis respectively
@@ -117,6 +134,7 @@ public class CameraRotator : MonoBehaviour
         {
             newQ = Quaternion.Euler(swipeDirection.y, -swipeDirection.x, 0);
         }
+
         cameraRot = Quaternion.Slerp(cameraRot, newQ, slerpValue); //let cameraRot value gradually reach newQ which corresponds to our touch
         mainCamera.transform.position = target.position + cameraRot * dir;
         mainCamera.transform.LookAt(target.position);
