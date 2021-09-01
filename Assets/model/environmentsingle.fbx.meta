@@ -3,7 +3,37 @@ guid: cfc4915f70521dd48ae6a3d1baf196de
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete
+    second: {fileID: 2100000, guid: d23f6af6ec4af1e408c623a7a396aba2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Scored_Jointless
+    second: {fileID: 2100000, guid: d2cb1a65ed4960a4b87e31c3075e31fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Grass_Dark_Green_2
+    second: {fileID: 2100000, guid: 3c1d79a119e8ddb418c183e96965cce2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass_crete_1
+    second: {fileID: 2100000, guid: d67f69b083d1bf54ba7a78d30f3c9e5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road
+    second: {fileID: 2100000, guid: cc1bf65fe653d2049afe3e35f75ef746, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: 22082321bd3bc47459374d7e21421d8f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

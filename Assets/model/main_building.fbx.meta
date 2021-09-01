@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 70d4bb1b91317b8499363773a6129ff1
 ModelImporter:
-  serializedVersion: 21100
+  serializedVersion: 20200
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -33,7 +33,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Grass_Dark_Green
-    second: {fileID: 2100000, guid: 186200dcd1877e04d95b92defd5c2456, type: 2}
+    second: {fileID: 2100000, guid: 3c1d79a119e8ddb418c183e96965cce2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
