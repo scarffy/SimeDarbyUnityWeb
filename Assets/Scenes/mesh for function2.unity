@@ -566,7 +566,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 189732066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4752.88, y: -249.5, z: -578.27}
+  m_LocalPosition: {x: -4779.25, y: -239.5, z: -593.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1445,6 +1445,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643605679}
   m_CullTransparentMesh: 1
+--- !u!1 &653035617 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9043929328977770045, guid: bf6c92198c2616042ad766fc0e4d5c7b, type: 3}
+  m_PrefabInstance: {fileID: 1539835943}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &732654046
 GameObject:
   m_ObjectHideFlags: 0
@@ -2362,6 +2367,11 @@ LightProbeGroup:
   - {x: 38.940918, y: -1, z: 1}
   - {x: 38.940918, y: -1, z: -1}
   m_Dering: 1
+--- !u!1 &1060092570 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1738870027319842140, guid: bf6c92198c2616042ad766fc0e4d5c7b, type: 3}
+  m_PrefabInstance: {fileID: 1539835943}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1070257890
 GameObject:
   m_ObjectHideFlags: 0
@@ -2439,13 +2449,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1070257890}
-  m_LocalRotation: {x: 0.078525506, y: 0.44197875, z: -0.039235033, w: 0.8927201}
-  m_LocalPosition: {x: -4756.18, y: -247.58, z: -584.12}
+  m_LocalRotation: {x: 0.37642902, y: -0, z: -0, w: 0.9264455}
+  m_LocalPosition: {x: -4779.25, y: -228, z: -608.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 44.225, y: 0, z: 0}
 --- !u!114 &1070257894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2964,10 +2974,10 @@ MonoBehaviour:
   distanceBetweenCameraAndTarget: 0
   minXRotAngle: -3
   maxXRotAngle: 80
-  rotX: 0
+  rotX: 40
   rotY: 0
   minDistance: 3
-  maxDistance: 10
+  maxDistance: 20
   ScrollSpeed: 10
 --- !u!4 &1280496683
 Transform:
@@ -3004,9 +3014,9 @@ MonoBehaviour:
   - {fileID: 1539835948}
   - {fileID: 1539835947}
   RightWall:
-  - {fileID: 0}
+  - {fileID: 653035617}
   OtherBuildings:
-  - {fileID: 0}
+  - {fileID: 1060092570}
   - {fileID: 1838199285}
   - {fileID: 1494446851}
   RoofBool: 0
@@ -5290,6 +5300,10 @@ PrefabInstance:
     - target: {fileID: -8268907554523696737, guid: f654c9dbd0ac8e64eb80d27c139166ab, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -8218358047021895789, guid: f654c9dbd0ac8e64eb80d27c139166ab, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8218358047021895789, guid: f654c9dbd0ac8e64eb80d27c139166ab, type: 3}
       propertyPath: m_StaticEditorFlags
