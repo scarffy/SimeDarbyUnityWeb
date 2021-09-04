@@ -5,15 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Lighting_scene3.unity
-    guid: 341ef41fecfe31e4dba454119327e87d
-  - enabled: 0
-    path: Assets/Scenes/mesh for function.unity
-    guid: 63323552e2de90348a4df345b599e416
   - enabled: 1
-    path: Assets/Scenes/Lighting_scene5.unity
-    guid: 70c79cc6b186fbd4baf1ce494000318b
+    path: Assets/Scenes/Lighting_scene6.unity
+    guid: df5c83945469bb64e98f59a8407fea2a
   - enabled: 1
     path: Assets/Scenes/mesh for function2.unity
     guid: dc218d377566fe340b56546193c45372
