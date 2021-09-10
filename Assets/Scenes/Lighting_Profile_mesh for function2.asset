@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09549af41255a3d46b8b500a63f93e23, type: 3}
+  m_Name: Lighting_Profile_mesh for function2
+  m_EditorClassIdentifier: 
+  mainCameraName: Main Camera
+  objectName: LightingProfile
+  volumeProfile: {fileID: 11400000, guid: a1a4d80b98edc0b4d9fe5f0ca3510900, type: 2}
+  lightingMode: 1
+  bakedResolution: 20
+  lightSettings: 3
+  colorSpace: 0
+  directSamples: 100
+  indirectSamples: 512
+  aoIntensityDirect: 0
+  aoIntensityIndirect: 1
+  aoEnabled: 1
+  aoDistance: 1
+  indirectBounce: 3
+  backfaceTolerance: 0.2
+  skyBox: {fileID: 2100000, guid: 71f14a2d79f732f4d9893ef1b911f4ff, type: 2}
+  ambientLight: 1
+  ambientColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+  skyColor: {r: 1, g: 1, b: 1, a: 1}
+  equatorColor: {r: 1, g: 1, b: 1, a: 1}
+  groundColor: {r: 1, g: 1, b: 1, a: 1}
+  sunColor: {r: 1, g: 1, b: 1, a: 1}
+  sunIntensity: 1
+  sunFlare: {fileID: 12100000, guid: 70ff7d98b27dd54458e51a95f7984da3, type: 2}
+  indirectIntensity: 1.43
+  fogMode: 3
+  fogColor: {r: 1, g: 0.8664381, b: 0.6627451, a: 1}
+  fogIntensity: 0.0618
+  linearStart: 0
+  linearEnd: 36
+  bIntensity: 0.4
+  bThreshould: 0
+  bColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtTexture: {fileID: 2800000, guid: d052d5ed3fce67140a2d38b8daf5278a, type: 3}
+  dirtIntensity: 0
+  mobileOptimizedBloom: 0
+  bRotation: 0
+  lightsShadow: 3
+  lightProbesMode: 0
+  automaticLightmap: 0
+  dofDistance: 1
+  dofFocusLength: 30
+  dofAperture: 5
+  exposureIntensity: 1.36
+  contrastValue: 0.267
+  temp: 0
+  colorMode: 0
+  saturation: 0
+  gamma: -0.05
+  colorGamma: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
+  colorLift: {r: 0, g: 0, b: 0, a: 1}
+  lut: {fileID: 0}
+  vignetteIntensity: 0.17
+  CA_Intensity: 0.1
+  aaMode: 0
+  enabled: 0
+  mbIntensity: 3.27
+  mbQuality: 0
+  Ambient_Enabled: 0
+  Scene_Enabled: 1
+  Sun_Enabled: 1
+  VL_Enabled: 0
+  Fog_Enabled: 0
+  DOF_Enabled: 0
+  Bloom_Enabled: 1
+  AA_Enabled: 1
+  AO_Enabled: 1
+  MotionBlur_Enabled: 0
+  Vignette_Enabled: 0
+  Chromattic_Enabled: 1
+  ambientState: 1
+  sunState: 1
+  lightSettingsState: 1
+  cameraState: 0
+  profileState: 1
+  buildState: 1
+  fogState: 1
+  dofState: 1
+  colorState: 1
+  bloomState: 1
+  aaState: 1
+  aoState: 0
+  motionBlurState: 0
+  vignetteState: 0
+  chromatticState: 1
+  OptionsState: 1
+  LightingBoxState: 0

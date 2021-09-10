@@ -27,5 +27,5 @@ Material:
     - _Exposure: 1
     - _Rotation: 0
     m_Colors:
-    - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _Tint: {r: 1, g: 0.8407294, b: 0.6861293, a: 1}
   m_BuildTextureStacks: []

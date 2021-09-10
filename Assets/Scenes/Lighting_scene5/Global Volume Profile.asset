@@ -16,7 +16,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   postExposure:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 1.66
   contrast:
     m_OverrideState: 1
     m_Value: 0
@@ -58,7 +58,7 @@ MonoBehaviour:
     min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.74
+    m_Value: 0.3
     min: 0
   scatter:
     m_OverrideState: 1
@@ -205,7 +205,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   temperature:
     m_OverrideState: 1
-    m_Value: 13
+    m_Value: 0
     min: -100
     max: 100
   tint:
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
   m_Name: Vignette
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   color:
     m_OverrideState: 1
@@ -267,7 +267,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {x: 1, y: 0.9743798, z: 0.8975202, w: 0}
   gamma:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {x: 1, y: 0.99915427, z: 0.9862488, w: 0}
   gain:
     m_OverrideState: 1
