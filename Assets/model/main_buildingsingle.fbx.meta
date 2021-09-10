@@ -33,7 +33,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Grass_Dark_Green
-    second: {fileID: 2100000, guid: 47241ad170e13364d9f863c3154f4280, type: 2}
+    second: {fileID: 2100000, guid: 3c1d79a119e8ddb418c183e96965cce2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -88,7 +88,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: grass_crete_1
-    second: {fileID: 2100000, guid: e2fe143c933f08d4c9a226963c2436ca, type: 2}
+    second: {fileID: 2100000, guid: d67f69b083d1bf54ba7a78d30f3c9e5a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -155,7 +155,7 @@ ModelImporter:
     importLights: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
