@@ -12,7 +12,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: EW_FeatureWall.001
+    second: {fileID: 2100000, guid: d7fca05cdc54f3a4bb5e0197491e0161, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: EW_GeneralWall
+    second: {fileID: 2100000, guid: b362d6a3ee3ed25499e6435b1c1f567e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EW_GeneralWall.001
     second: {fileID: 2100000, guid: b362d6a3ee3ed25499e6435b1c1f567e, type: 2}
   - first:
       type: UnityEngine:Material
@@ -22,7 +32,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: EW_SideWall1.001
+    second: {fileID: 2100000, guid: d9cca7a067db31e47a0694778d653d61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: EW_SideWall2
+    second: {fileID: 2100000, guid: 33792c73582917d47a2db6783b191591, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EW_SideWall2.001
     second: {fileID: 2100000, guid: 33792c73582917d47a2db6783b191591, type: 2}
   - first:
       type: UnityEngine:Material
@@ -32,12 +52,32 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: ITR_white.001
+    second: {fileID: 2100000, guid: 2f16494ebf521ef44bc9c1927cca00d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: PC_WindowFrame
     second: {fileID: 2100000, guid: d09633af207e9564a8ec1830d43a0fad, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: PC_WindowFrame.001
+    second: {fileID: 2100000, guid: d09633af207e9564a8ec1830d43a0fad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightWallInterior
+    second: {fileID: 2100000, guid: 7a10d211f0126454994397e9ae8e9232, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: _Carrera_Marble_
+    second: {fileID: 2100000, guid: 499bd280ffabc1d419e0c216d317537e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Carrera_Marble_.001
     second: {fileID: 2100000, guid: 499bd280ffabc1d419e0c216d317537e, type: 2}
   - first:
       type: UnityEngine:Material
@@ -47,7 +87,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: board.001
+    second: {fileID: 2100000, guid: 2d98ebbbc5d1e0346829c872ec1cfb7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: brick
+    second: {fileID: 2100000, guid: 7a66f7c11f2360a44be0706c2b9a2b5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brick.001
     second: {fileID: 2100000, guid: 7a66f7c11f2360a44be0706c2b9a2b5c, type: 2}
   - first:
       type: UnityEngine:Material
@@ -57,12 +107,27 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: ground.001
+    second: {fileID: 2100000, guid: 593c2f57bc35be844bc78f62c275069b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: metal1
     second: {fileID: 2100000, guid: dde1827a9c3725540b7af8034de14d5d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: metal1.001
+    second: {fileID: 2100000, guid: dde1827a9c3725540b7af8034de14d5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: roof
+    second: {fileID: 2100000, guid: 122b8513e49e8ce41ac519d9c04aa0f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof.001
     second: {fileID: 2100000, guid: 122b8513e49e8ce41ac519d9c04aa0f5, type: 2}
   materials:
     materialImportMode: 2
