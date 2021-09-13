@@ -14,7 +14,7 @@ LightingSettings:
   m_RealtimeEnvironmentLighting: 1
   m_BounceScale: 1
   m_AlbedoBoost: 1
-  m_IndirectOutputScale: 1
+  m_IndirectOutputScale: 2
   m_UsingShadowmask: 0
   m_BakeBackend: 1
   m_LightmapMaxSize: 2048
@@ -23,7 +23,7 @@ LightingSettings:
   m_TextureCompression: 1
   m_AO: 1
   m_AOMaxDistance: 1
-  m_CompAOExponent: 1
+  m_CompAOExponent: 0.6
   m_CompAOExponentDirect: 0
   m_ExtractAO: 0
   m_MixedBakeMode: 0
@@ -45,7 +45,7 @@ LightingSettings:
   m_PVREnvironmentSampleCount: 256
   m_PVREnvironmentReferencePointCount: 2048
   m_LightProbeSampleCountMultiplier: 4
-  m_PVRBounces: 2
+  m_PVRBounces: 3
   m_PVRMinBounces: 1
   m_PVREnvironmentMIS: 0
   m_PVRFilteringMode: 1
