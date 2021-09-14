@@ -2977,7 +2977,7 @@ MonoBehaviour:
   mainCamera: {fileID: 1070257892}
   mouseRotateSpeed: 3.8
   touchRotateSpeed: 17.5
-  slerpValue: 0.02
+  slerpValue: 0.2
   rotateMethod: 0
   distanceBetweenCameraAndTarget: 0
   minXRotAngle: -3
@@ -4946,7 +4946,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5999,7 +5999,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &919132148429803755
 Animator:
   serializedVersion: 3
