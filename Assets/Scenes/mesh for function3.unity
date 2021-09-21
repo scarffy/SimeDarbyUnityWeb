@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6988458, g: 0.7258814, b: 0.76398027, a: 1}
+  m_IndirectSpecularColor: {r: 0.43942922, g: 0.4780193, b: 0.53576183, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1420,7 +1420,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.5
+  m_Intensity: 20
   m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 30
@@ -2577,7 +2577,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.5
+  m_Intensity: 20
   m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 30
@@ -2865,7 +2865,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 4
+  m_Intensity: 20
   m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 30
@@ -3091,7 +3091,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.5
+  m_Intensity: 20
   m_Range: 2
   m_SpotAngle: 116.83142
   m_InnerSpotAngle: 50.113937
@@ -3327,7 +3327,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4.61621e+24, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 1e-45, z: 1.435e-42, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -3479,7 +3479,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.5
+  m_Intensity: 20
   m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 30
@@ -3751,7 +3751,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.5
+  m_Intensity: 20
   m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 30
@@ -4323,7 +4323,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.5
+  m_Intensity: 20
   m_Range: 2
   m_SpotAngle: 116.83142
   m_InnerSpotAngle: 50.113937
@@ -5590,7 +5590,7 @@ Light:
   m_Type: 3
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 4
+  m_Intensity: 20
   m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 30
@@ -6372,6 +6372,14 @@ PrefabInstance:
       propertyPath: m_ReceiveGI
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 446012768719743365, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012768719743365, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 446012768762402242, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Type
       value: 3
@@ -6382,7 +6390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012768762402242, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Intensity
-      value: 4
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 446012768762402242, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_AreaSize.y
@@ -6418,7 +6426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012768844781581, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Intensity
-      value: 3
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 446012768844781581, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Lightmapping
@@ -6426,7 +6434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012768844781581, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_BounceIntensity
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 446012768897334925, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Type
@@ -6438,7 +6446,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012768897334925, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Intensity
-      value: 4
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 446012768897334925, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_AreaSize.y
@@ -6458,7 +6466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012768899223029, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Intensity
-      value: 3
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 446012768899223029, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Lightmapping
@@ -6466,11 +6474,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012768899223029, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_BounceIntensity
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 446012768942436546, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012768942436546, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 446012768988709595, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6488,9 +6500,37 @@ PrefabInstance:
       propertyPath: m_ReceiveGI
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 446012768999568992, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012768999568992, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 446012769005154911, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769005154911, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769028542116, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769028542116, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769079773828, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769079773828, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 446012769134010584, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6508,17 +6548,33 @@ PrefabInstance:
       propertyPath: m_ReceiveGI
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 446012769147355584, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769147355584, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 446012769193448576, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769193448576, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 446012769248282077, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 446012769248282077, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 446012769315307065, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Intensity
-      value: 3
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 446012769315307065, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Lightmapping
@@ -6526,23 +6582,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012769315307065, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_BounceIntensity
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 446012769327263434, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 446012769327263434, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769576883342, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769576883342, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 446012769595869199, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769595869199, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769612614465, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769612614465, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 446012769651578355, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 446012769651578355, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 446012769796038516, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Intensity
-      value: 3
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 446012769796038516, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Lightmapping
@@ -6550,11 +6634,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012769796038516, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_BounceIntensity
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 446012769822510959, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Intensity
-      value: 3
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 446012769822510959, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Lightmapping
@@ -6562,11 +6646,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012769822510959, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_BounceIntensity
-      value: 2
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769930687291, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769930687291, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 446012769954495523, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Intensity
-      value: 3
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 446012769954495523, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Lightmapping
@@ -6574,7 +6666,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012769954495523, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_BounceIntensity
-      value: 2
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012770017390071, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012770017390071, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012770196536878, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012770196536878, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 446012770263225936, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
@@ -6596,13 +6704,41 @@ PrefabInstance:
       propertyPath: m_ReceiveGI
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 446012770405665309, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 446012770407052762, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 446012770407052762, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 446012770417821383, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012770417821383, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012770442319875, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012770442319875, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012770450430100, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012770450430100, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 446012770456679840, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Type
@@ -6614,7 +6750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012770456679840, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Intensity
-      value: 4
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 446012770456679840, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_AreaSize.y
@@ -6636,9 +6772,17 @@ PrefabInstance:
       propertyPath: m_ReceiveGI
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 446012770549846526, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 446012770587224782, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012770587224782, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 446012770736907388, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
