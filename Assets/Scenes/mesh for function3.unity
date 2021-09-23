@@ -1231,10 +1231,10 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 7
+  m_Intensity: 5
   m_Range: 6
-  m_SpotAngle: 111.88056
-  m_InnerSpotAngle: 55.160828
+  m_SpotAngle: 99.75011
+  m_InnerSpotAngle: 32.41623
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -1273,7 +1273,7 @@ Light:
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 3.2
+  m_BounceIntensity: 3.5
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 8.26542e-40, y: 0, z: 1.194256e-38, w: 7.34706e-40}
@@ -1324,10 +1324,10 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 7
+  m_Intensity: 5
   m_Range: 6
-  m_SpotAngle: 111.88056
-  m_InnerSpotAngle: 55.160828
+  m_SpotAngle: 99.75011
+  m_InnerSpotAngle: 32.41623
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -1366,7 +1366,7 @@ Light:
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 3.2
+  m_BounceIntensity: 3.5
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 4.592e-40, y: 4e-45, z: -0.012275136, w: 3.7589806e+9}
@@ -2098,10 +2098,10 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 7
+  m_Intensity: 5
   m_Range: 6
-  m_SpotAngle: 111.88056
-  m_InnerSpotAngle: 55.160828
+  m_SpotAngle: 99.75011
+  m_InnerSpotAngle: 32.41623
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -2140,7 +2140,7 @@ Light:
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 3.2
+  m_BounceIntensity: 3.5
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 3.866728e-29, y: 1.1443745e-28, z: 1.1443742e-28, w: -22389662}
@@ -3296,6 +3296,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7273d7e6a3036d24e9e359f5dc0d3757, type: 2}
+    - target: {fileID: 2681621655059567679, guid: e63013045da6993488436706b076b70b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e63013045da6993488436706b076b70b, type: 3}
 --- !u!4 &1171252644 stripped
@@ -3519,6 +3523,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7273d7e6a3036d24e9e359f5dc0d3757, type: 2}
+    - target: {fileID: 2681621655059567679, guid: e63013045da6993488436706b076b70b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e63013045da6993488436706b076b70b, type: 3}
 --- !u!4 &1178164665 stripped
@@ -3791,7 +3799,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: NaN, y: 0, z: 8.3702e-41, w: 6e-44}
+  m_BoundingSphereOverride: {x: 0.08984375, y: -3.4058083e+33, z: 4.5905e-41, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -6192,10 +6200,10 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 7
+  m_Intensity: 5
   m_Range: 6
-  m_SpotAngle: 111.88056
-  m_InnerSpotAngle: 55.160828
+  m_SpotAngle: 99.75011
+  m_InnerSpotAngle: 32.41623
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -6234,7 +6242,7 @@ Light:
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 3.2
+  m_BounceIntensity: 3.5
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 2.7516083e-27, y: -8.688641e-20, z: -4.6530934e+26, w: 3.259683e+25}
@@ -6686,6 +6694,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7273d7e6a3036d24e9e359f5dc0d3757, type: 2}
+    - target: {fileID: 2681621655059567679, guid: e63013045da6993488436706b076b70b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e63013045da6993488436706b076b70b, type: 3}
 --- !u!4 &1971413196 stripped
@@ -6920,6 +6932,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7273d7e6a3036d24e9e359f5dc0d3757, type: 2}
+    - target: {fileID: 2681621655059567679, guid: e63013045da6993488436706b076b70b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e63013045da6993488436706b076b70b, type: 3}
 --- !u!4 &2065213349 stripped
@@ -7171,15 +7187,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012768844781581, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Intensity
-      value: 7
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012768844781581, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_SpotAngle
+      value: 99.75011
       objectReference: {fileID: 0}
     - target: {fileID: 446012768844781581, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Lightmapping
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 446012768844781581, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 32.41623
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012768844781581, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_BounceIntensity
-      value: 3.2
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 446012768897334925, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Type
@@ -7211,15 +7235,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012768899223029, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Intensity
-      value: 7
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012768899223029, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_SpotAngle
+      value: 99.75011
       objectReference: {fileID: 0}
     - target: {fileID: 446012768899223029, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Lightmapping
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 446012768899223029, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 32.41623
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012768899223029, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_BounceIntensity
-      value: 3.2
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 446012768942436546, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
@@ -7335,15 +7367,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012769315307065, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Intensity
-      value: 7
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769315307065, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_SpotAngle
+      value: 99.75011
       objectReference: {fileID: 0}
     - target: {fileID: 446012769315307065, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Lightmapping
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 446012769315307065, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 32.41623
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769315307065, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_BounceIntensity
-      value: 3.2
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 446012769327263434, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
@@ -7387,27 +7427,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012769796038516, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Intensity
-      value: 7
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769796038516, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_SpotAngle
+      value: 99.75011
       objectReference: {fileID: 0}
     - target: {fileID: 446012769796038516, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Lightmapping
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 446012769796038516, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 32.41623
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769796038516, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_BounceIntensity
-      value: 3.2
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 446012769822510959, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Intensity
-      value: 7
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769822510959, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_SpotAngle
+      value: 99.75011
       objectReference: {fileID: 0}
     - target: {fileID: 446012769822510959, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Lightmapping
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 446012769822510959, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 32.41623
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769822510959, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_BounceIntensity
-      value: 3.2
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 446012769930687291, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
@@ -7419,15 +7475,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446012769954495523, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Intensity
-      value: 7
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769954495523, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_SpotAngle
+      value: 99.75011
       objectReference: {fileID: 0}
     - target: {fileID: 446012769954495523, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Lightmapping
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 446012769954495523, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_InnerSpotAngle
+      value: 32.41623
+      objectReference: {fileID: 0}
+    - target: {fileID: 446012769954495523, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_BounceIntensity
-      value: 3.2
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 446012770017390071, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_ReceiveGI
@@ -7626,6 +7690,30 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2396130747386500363, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524134479454818583, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524134479484594209, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524134479822510605, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524134481084215875, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524134481230549060, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524134481273240901, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
