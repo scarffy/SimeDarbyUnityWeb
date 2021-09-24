@@ -88,7 +88,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: grass_crete_1
-    second: {fileID: 2100000, guid: d67f69b083d1bf54ba7a78d30f3c9e5a, type: 2}
+    second: {fileID: 2100000, guid: e2fe143c933f08d4c9a226963c2436ca, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
