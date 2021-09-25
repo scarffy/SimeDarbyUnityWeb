@@ -10,10 +10,10 @@ public class OpenSection : MonoBehaviour
     public GameObject[] OtherBuildings;
 
     [Space(20)]
-    [SerializeField] bool RoofBool = false;
-    [SerializeField] bool LeftWallBool = false;
-    [SerializeField] bool RightWallBool = false;
-    [SerializeField] bool OtherBuildingsBool = false;
+    public bool RoofBool = false;
+    public bool LeftWallBool = false;
+    public bool RightWallBool = false;
+    public bool OtherBuildingsBool = false;
 
     public void RoofLogic()
     {
