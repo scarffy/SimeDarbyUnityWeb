@@ -2979,7 +2979,7 @@ MonoBehaviour:
   slerpValue: 0.2
   rotateMethod: 0
   distanceBetweenCameraAndTarget: 0
-  minXRotAngle: -3
+  minXRotAngle: 0
   maxXRotAngle: 80
   rotX: 40
   rotY: 0
