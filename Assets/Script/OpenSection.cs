@@ -15,6 +15,18 @@ public class OpenSection : MonoBehaviour
     public bool RightWallBool = false;
     public bool OtherBuildingsBool = false;
 
+    [Space]
+    public GameObject[] GFloor;
+    public GameObject[] FirstFloor;
+    public GameObject[] SecondFloor;
+  
+
+    [Space]
+    public bool GFloorBool = false;
+    public bool FirstFloorBool = false;
+    public bool SecondFloorBool = false;
+    
+
     public void RoofLogic()
     {
         if(Roof.Length > 0)
@@ -104,6 +116,69 @@ public class OpenSection : MonoBehaviour
                 }
                 OtherBuildingsBool = true;
             }
+        }
+    }
+
+    public void FirstFloorLogic()
+    {
+        if(FirstFloor.Length > 0)
+        {
+            if (FirstFloorBool)
+            {
+                for (int i = 0; i < FirstFloor.Length; i++)
+                {
+                    FirstFloor[i].SetActive(false);
+                }
+                FirstFloorBool = false;
+            }
+            else
+            {
+                for (int i = 0; i < FirstFloor.Length; i++)
+                {
+                    FirstFloor[i].SetActive(true);
+                }
+                FirstFloorBool = true;
+            }
+        }
+    }
+
+    public void SecondFloorLogic()
+    {
+        if (SecondFloorBool)
+        {
+            for (int i = 0; i < SecondFloor.Length; i++)
+            {
+                SecondFloor[i].SetActive(false);
+            }
+            SecondFloorBool = false;
+        }
+        else
+        {
+            for (int i = 0; i < SecondFloor.Length; i++)
+            {
+                SecondFloor[i].SetActive(true);
+            }
+            SecondFloorBool = true;
+        }
+    }
+
+    public void ThirdFloorLogic()
+    {
+        if (GFloorBool)
+        {
+            for (int i = 0; i < GFloor.Length; i++)
+            {
+                GFloor[i].SetActive(false);
+            }
+            GFloorBool = false;
+        }
+        else
+        {
+            for (int i = 0; i < GFloor.Length; i++)
+            {
+                GFloor[i].SetActive(true);
+            }
+            GFloorBool = true;
         }
     }
 }
