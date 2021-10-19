@@ -2983,9 +2983,9 @@ MonoBehaviour:
   minXRotAngle: 0
   maxXRotAngle: 80
   rotX: 40
-  rotY: 0
+  rotY: 15
   minDistance: 3
-  maxDistance: 20
+  maxDistance: 25
   ScrollSpeed: 10
 --- !u!4 &1280496683
 Transform:
