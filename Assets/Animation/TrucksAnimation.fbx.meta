@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 6b38935233767a445baf061015e29bd3
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1269532084161457093
+    second: Truck.001|front_partforklift_meshforklift.001Action
+  - first:
+      74: -7438359316567748593
+    second: Truck.001|front_partforklift_meshforkliftAction
+  - first:
+      74: -1769603244567027459
+    second: Truck.001|NurbsPathAction
+  - first:
+      74: -7550189371320762421
+    second: Truck.001|NurbsPathAction.002
+  - first:
+      74: -7945859857610502797
+    second: Truck.001|NurbsPathAction.003
+  - first:
+      74: 3046152586487942491
+    second: Truck.001|Truck.001Action
+  - first:
+      74: 3414040943979282828
+    second: Truck.001|Truck.001Action.001
+  - first:
+      74: -2361530702425920847
+    second: Truck.001|Truck.001Action.002
+  - first:
+      74: -4104046228994267445
+    second: Truck.001|Truck.002Action
+  - first:
+      74: 7902406628482166143
+    second: Truck.001|Truck.002Action.001
+  - first:
+      74: -6064783481765856982
+    second: Truck.001|Truck.002Action.002
+  - first:
+      74: 6698461157760005679
+    second: Truck.002|front_partforklift_meshforklift.001Action
+  - first:
+      74: -618809943762648635
+    second: Truck.002|front_partforklift_meshforkliftAction
+  - first:
+      74: -7549389769607280428
+    second: Truck.002|NurbsPathAction
+  - first:
+      74: -1207220198337290795
+    second: Truck.002|NurbsPathAction.002
+  - first:
+      74: 1726693990895735540
+    second: Truck.002|NurbsPathAction.003
+  - first:
+      74: 4845974726249737986
+    second: Truck.002|Truck.001Action
+  - first:
+      74: 3642071878461966943
+    second: Truck.002|Truck.001Action.001
+  - first:
+      74: -5776056620129078301
+    second: Truck.002|Truck.001Action.002
+  - first:
+      74: -205420124122046956
+    second: Truck.002|Truck.002Action
+  - first:
+      74: 7049751156874130369
+    second: Truck.002|Truck.002Action.001
+  - first:
+      74: 7330589214508064404
+    second: Truck.002|Truck.002Action.002
+  - first:
+      74: -8585223493142672053
+    second: Truck 1|Forklift 1Action
+  - first:
+      74: 6377537232468961976
+    second: Truck 1|Forklift 2Action
+  - first:
+      74: 5512660789412583686
+    second: Truck 1|front_partforklift_meshforklift.001Action
+  - first:
+      74: 9042561114014833097
+    second: Truck 1|front_partforklift_meshforkliftAction
+  - first:
+      74: -4441794846388951786
+    second: Truck 1|NurbsPathAction
+  - first:
+      74: 7191326192118715927
+    second: Truck 1|NurbsPathAction.002
+  - first:
+      74: 4590114223572256146
+    second: Truck 1|NurbsPathAction.003
+  - first:
+      74: 4562029475292268233
+    second: Truck 1|Truck.001Action
+  - first:
+      74: -4581452849279774737
+    second: Truck 1|Truck.001Action.001
+  - first:
+      74: 4158345603230958501
+    second: Truck 1|Truck.001Action.002
+  - first:
+      74: -3565621149730284895
+    second: Truck 1|Truck.002Action
+  - first:
+      74: 5642297495924582494
+    second: Truck 1|Truck.002Action.001
+  - first:
+      74: -2173198533600562482
+    second: Truck 1|Truck.002Action.002
+  - first:
+      74: 8470833908178244389
+    second: Truck 1|Truck.003Action
+  - first:
+      74: 8400444406114853865
+    second: Truck 1|TruckAction
+  - first:
+      74: -4157114056394809667
+    second: Truck 1|TruckAction.001
+  - first:
+      74: -2098813298943842045
+    second: Truck 1|TruckAction.002
+  - first:
+      74: -7647276619758523438
+    second: Truck 2|Forklift 1Action
+  - first:
+      74: 3400952033902642736
+    second: Truck 2|front_partforklift_meshforklift.001Action
+  - first:
+      74: 698028556862492981
+    second: Truck 2|front_partforklift_meshforkliftAction
+  - first:
+      74: -469618217478825386
+    second: Truck 2|NurbsPathAction
+  - first:
+      74: -9136896640724561782
+    second: Truck 2|NurbsPathAction.002
+  - first:
+      74: -3133211648010014079
+    second: Truck 2|NurbsPathAction.003
+  - first:
+      74: 508210453610818459
+    second: Truck 2|Truck.001Action
+  - first:
+      74: -5932829676144217168
+    second: Truck 2|Truck.001Action.001
+  - first:
+      74: 2652262247565606645
+    second: Truck 2|Truck.001Action.002
+  - first:
+      74: -2554880757868839179
+    second: Truck 2|Truck.002Action
+  - first:
+      74: -7731768505475845927
+    second: Truck 2|Truck.002Action.001
+  - first:
+      74: 6467912372313845257
+    second: Truck 2|Truck.002Action.002
+  - first:
+      74: -3410014320745286443
+    second: Truck 2|Truck.003Action
+  - first:
+      74: -5473855737627206781
+    second: Truck 2|TruckAction.001
+  - first:
+      74: 3042535185696706781
+    second: Truck 2|TruckAction.002
+  - first:
+      74: -8305918254597580672
+    second: Forklift 1|Forklift 1Action
+  - first:
+      74: -1879706684117824087
+    second: Forklift 1|front_partforklift_meshforklift.001Action
+  - first:
+      74: 735285750126046385
+    second: Forklift 1|front_partforklift_meshforkliftAction
+  - first:
+      74: -6953854568629818810
+    second: Forklift 1|NurbsPathAction
+  - first:
+      74: -7917404056929938475
+    second: Forklift 1|NurbsPathAction.002
+  - first:
+      74: -265957206666534892
+    second: Forklift 1|NurbsPathAction.003
+  - first:
+      74: -8066905783312199460
+    second: Forklift 1|Truck.001Action
+  - first:
+      74: 3622297059889147473
+    second: Forklift 1|Truck.001Action.001
+  - first:
+      74: -3553522740095824276
+    second: Forklift 1|Truck.001Action.002
+  - first:
+      74: -2399966223889602637
+    second: Forklift 1|Truck.002Action
+  - first:
+      74: -1603995107026977556
+    second: Forklift 1|Truck.002Action.001
+  - first:
+      74: -1357960262273049458
+    second: Forklift 1|Truck.002Action.002
+  - first:
+      74: -6312872599948949374
+    second: Forklift 1|Truck.003Action
+  - first:
+      74: -2366104598699305232
+    second: Forklift 1|TruckAction.001
+  - first:
+      74: 8008986674705027559
+    second: Forklift 1|TruckAction.002
+  - first:
+      74: -6237211164004050572
+    second: Forklift 2|Forklift 1Action
+  - first:
+      74: 8639126931495201179
+    second: Forklift 2|Forklift 2Action
+  - first:
+      74: -2292237741626366392
+    second: Forklift 2|front_partforklift_meshforklift.001Action
+  - first:
+      74: -8906344347894729434
+    second: Forklift 2|front_partforklift_meshforkliftAction
+  - first:
+      74: 3582515045068086159
+    second: Forklift 2|NurbsPathAction
+  - first:
+      74: -8138240126245057334
+    second: Forklift 2|NurbsPathAction.002
+  - first:
+      74: 3922110767303630145
+    second: Forklift 2|NurbsPathAction.003
+  - first:
+      74: 409719609038306603
+    second: Forklift 2|Truck.001Action
+  - first:
+      74: -8345589005109806482
+    second: Forklift 2|Truck.001Action.001
+  - first:
+      74: -3117854959102174853
+    second: Forklift 2|Truck.001Action.002
+  - first:
+      74: 256882925176738429
+    second: Forklift 2|Truck.002Action
+  - first:
+      74: -583380243707844961
+    second: Forklift 2|Truck.002Action.001
+  - first:
+      74: 6125810025148486924
+    second: Forklift 2|Truck.002Action.002
+  - first:
+      74: -3068909943359807462
+    second: Forklift 2|Truck.003Action
+  - first:
+      74: 7795727207807455872
+    second: Forklift 2|TruckAction
+  - first:
+      74: 1759943895156453009
+    second: Forklift 2|TruckAction.001
+  - first:
+      74: -3300779353397474455
+    second: Forklift 2|TruckAction.002
+  - first:
+      74: -9220892071299920190
+    second: Cargo 1 Anchor|BoxAction
+  - first:
+      74: -2854614945603243821
+    second: Cargo 1 Anchor|BoxAction.001
+  - first:
+      74: 2190761004767010695
+    second: Cargo 1 Anchor|BoxAction.002
+  - first:
+      74: -2261036329351100482
+    second: Cargo 1 Anchor|front_partforklift_meshforklift.001Action
+  - first:
+      74: 8776456574630972067
+    second: Cargo 1 Anchor|front_partforklift_meshforkliftAction
+  - first:
+      74: 3036977183528593141
+    second: Cargo 1 Anchor|NurbsPathAction
+  - first:
+      74: -3163252816714732882
+    second: Cargo 1 Anchor|NurbsPathAction.002
+  - first:
+      74: -4103950082645671513
+    second: Cargo 1 Anchor|NurbsPathAction.003
+  - first:
+      74: -3599763639843648039
+    second: Cargo 1 Anchor|Truck.001Action
+  - first:
+      74: 6059654117601879761
+    second: Cargo 1 Anchor|Truck.001Action.001
+  - first:
+      74: -892699003404142094
+    second: Cargo 1 Anchor|Truck.001Action.002
+  - first:
+      74: -8514920964162409596
+    second: Cargo 1 Anchor|Truck.002Action
+  - first:
+      74: -5207540763917834455
+    second: Cargo 1 Anchor|Truck.002Action.001
+  - first:
+      74: -3351519954500571147
+    second: Cargo 1 Anchor|Truck.002Action.002
+  - first:
+      74: -8657645844103446889
+    second: Cargo 2 Anchor|BoxAction
+  - first:
+      74: 550603439888726245
+    second: Cargo 2 Anchor|BoxAction.001
+  - first:
+      74: 4967220049601195073
+    second: Cargo 2 Anchor|BoxAction.002
+  - first:
+      74: -6122140051617703119
+    second: Cargo 2 Anchor|front_partforklift_meshforklift.001Action
+  - first:
+      74: -6467238442971718386
+    second: Cargo 2 Anchor|front_partforklift_meshforkliftAction
+  - first:
+      74: 4624233058647203345
+    second: Cargo 2 Anchor|NurbsPathAction
+  - first:
+      74: 5498090125285806474
+    second: Cargo 2 Anchor|NurbsPathAction.002
+  - first:
+      74: 9071004090836925941
+    second: Cargo 2 Anchor|NurbsPathAction.003
+  - first:
+      74: 58055946750206838
+    second: Cargo 2 Anchor|Truck.001Action
+  - first:
+      74: -3941307268376220836
+    second: Cargo 2 Anchor|Truck.001Action.001
+  - first:
+      74: 2792927256694133975
+    second: Cargo 2 Anchor|Truck.001Action.002
+  - first:
+      74: -7624306544026495047
+    second: Cargo 2 Anchor|Truck.002Action
+  - first:
+      74: -9152243170410394136
+    second: Cargo 2 Anchor|Truck.002Action.001
+  - first:
+      74: -7369993271349791410
+    second: Cargo 2 Anchor|Truck.002Action.002
+  - first:
+      74: -623603649343465320
+    second: Scene
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SimianArchGlass #58
+    second: {fileID: 2100000, guid: 6ba4ba49ea201f642b438a2b25b19c42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn1SG1
+    second: {fileID: 2100000, guid: 125b41ed327cc584fa2fcff0bc9fad11, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
