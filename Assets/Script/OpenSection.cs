@@ -25,7 +25,11 @@ public class OpenSection : MonoBehaviour
     public bool GFloorBool = false;
     public bool FirstFloorBool = false;
     public bool SecondFloorBool = false;
-    
+
+    public bool measurementBool = false;
+
+    [Space]
+    public GameObject[] Measurements;
 
     public void RoofLogic()
     {
@@ -179,6 +183,19 @@ public class OpenSection : MonoBehaviour
                 GFloor[i].SetActive(true);
             }
             GFloorBool = true;
+        }
+    }
+
+    public void MeasurementLogic()
+    {
+        measurementBool = !measurementBool;
+
+        if (Measurements.Length == 0)
+            return;
+
+        for (int i = 0; i < Measurements.Length; i++)
+        {
+            Measurements[i].SetActive(measurementBool);
         }
     }
 }
