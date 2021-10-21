@@ -31,6 +31,8 @@ public class OpenSection : MonoBehaviour
     [Space]
     public GameObject[] Measurements;
 
+    public GameObject groundImage;
+
     public void RoofLogic()
     {
         if(Roof.Length > 0)
@@ -144,6 +146,7 @@ public class OpenSection : MonoBehaviour
                 FirstFloorBool = true;
             }
         }
+        GroundImageLogic();
     }
 
     public void SecondFloorLogic()
@@ -164,6 +167,7 @@ public class OpenSection : MonoBehaviour
             }
             SecondFloorBool = true;
         }
+        GroundImageLogic();
     }
 
     public void ThirdFloorLogic()
@@ -184,6 +188,8 @@ public class OpenSection : MonoBehaviour
             }
             GFloorBool = true;
         }
+
+        GroundImageLogic();
     }
 
     public void MeasurementLogic()
@@ -196,6 +202,18 @@ public class OpenSection : MonoBehaviour
         for (int i = 0; i < Measurements.Length; i++)
         {
             Measurements[i].SetActive(measurementBool);
+        }
+    }
+
+    void GroundImageLogic()
+    {
+        if(!FirstFloorBool && !SecondFloorBool)
+        {
+            groundImage.SetActive(true);
+        }
+        else
+        {
+            groundImage.SetActive(false);
         }
     }
 }
