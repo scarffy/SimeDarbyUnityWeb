@@ -2056,6 +2056,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 501726452}
     m_Modifications:
+    - target: {fileID: 2334061507936260895, guid: ff5fcc194c5cd7049a7f9347d2c6ca25, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7619053690056031014, guid: ff5fcc194c5cd7049a7f9347d2c6ca25, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8071285328753551538, guid: ff5fcc194c5cd7049a7f9347d2c6ca25, type: 3}
       propertyPath: m_Name
       value: UnitAnimation
@@ -8866,7 +8874,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7b658f659e7f4bb4cac87f2aff740c62, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7b658f659e7f4bb4cac87f2aff740c62, type: 3}
       propertyPath: m_LocalScale.x
@@ -11709,6 +11717,10 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5570520408542034628, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5570520408542034628, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 547cc8f3053e8d84d83549aa5e84fcd0, type: 2}
@@ -12105,6 +12117,10 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 7227620249247154516, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227620249247154516, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 547cc8f3053e8d84d83549aa5e84fcd0, type: 2}
@@ -12467,6 +12483,10 @@ PrefabInstance:
     - target: {fileID: 8664253663421080133, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8681508375602561559, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_StitchLightmapSeams
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8681508375602561559, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14524,7 +14544,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -55.880432, y: 70}
+  m_AnchoredPosition: {x: -55.88037, y: 70}
   m_SizeDelta: {x: 290.9861, y: 60.3337}
   m_Pivot: {x: 1, y: 0}
 --- !u!33 &8724813956596429627
