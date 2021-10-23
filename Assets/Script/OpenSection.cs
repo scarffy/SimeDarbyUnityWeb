@@ -28,10 +28,15 @@ public class OpenSection : MonoBehaviour
 
     public bool measurementBool = false;
 
-    [Space]
+    [Header("Measurement")]
     public GameObject[] Measurements;
 
     public GameObject groundImage;
+
+    [Space]
+    public UnityEngine.UI.Image icon;
+    public Sprite iconOn;
+    public Sprite iconOff;
 
     public void RoofLogic()
     {
@@ -203,6 +208,8 @@ public class OpenSection : MonoBehaviour
         {
             Measurements[i].SetActive(measurementBool);
         }
+
+        icon.sprite = measurementBool ? iconOn : iconOff;
     }
 
     void GroundImageLogic()

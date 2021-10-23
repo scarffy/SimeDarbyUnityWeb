@@ -4817,6 +4817,9 @@ MonoBehaviour:
   - {fileID: 1704587649}
   - {fileID: 2966448763939750442}
   groundImage: {fileID: 63194931}
+  icon: {fileID: 2070143740}
+  iconOn: {fileID: 21300000, guid: 90b6337c30e730b478352be77babf767, type: 3}
+  iconOff: {fileID: 21300000, guid: 619872c6810df3e45ace4311dbed7077, type: 3}
 --- !u!1 &1280672936
 GameObject:
   m_ObjectHideFlags: 0
