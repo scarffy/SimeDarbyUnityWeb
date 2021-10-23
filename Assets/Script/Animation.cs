@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.Timeline;
 
 public class Animation : MonoBehaviour
 {
     public PlayableDirector director;
-
+    public PlayableAsset asset;
 
     public void PlayStop()
     {
@@ -14,7 +15,7 @@ public class Animation : MonoBehaviour
         {
             stop();
         }
-        else
+        else if(!director.playableGraph.IsPlaying())
         {
             play();
         }
@@ -22,11 +23,27 @@ public class Animation : MonoBehaviour
 
     void play()
     {
-        director.Play();
+        director.Play(asset);
     }
 
     void stop()
     {
-        director.Stop();
+        director.playableGraph.Stop();
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.E))
+        {
+            play();
+        }
+        if (Input.GetKeyUp(KeyCode.T))
+        {
+            stop();
+        }
+        if (Input.GetKeyUp(KeyCode.U))
+        {
+            director.playableGraph.Stop();
+        }
     }
 }
