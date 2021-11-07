@@ -2,23 +2,44 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
-using UnityEngine.Timeline;
+using UnityEngine.UI;
 
 public class Animation : MonoBehaviour
 {
     public PlayableDirector director;
     public PlayableAsset asset;
 
+    [Space, SerializeField] bool isPlaying = true;
+
+    [Space]
+    public Image icon;
+    public Sprite playIcon;
+    public Sprite pauseIcon;
+
+
+    private void OnEnable()
+    {
+        director.stopped += OnPlayableDirectorStopped;
+    }
+
+    private void OnDisable()
+    {
+        director.stopped -= OnPlayableDirectorStopped;
+    }
+
     public void PlayStop()
     {
-        if (director.playableGraph.IsPlaying())
+        if (isPlaying)
         {
             stop();
+            isPlaying = false;
         }
-        else if(!director.playableGraph.IsPlaying())
+        else
         {
             play();
+            isPlaying = true;
         }
+        icon.sprite = isPlaying ? playIcon : pauseIcon;
     }
 
     void play()
@@ -45,5 +66,11 @@ public class Animation : MonoBehaviour
         {
             director.playableGraph.Stop();
         }
+    }
+
+    void OnPlayableDirectorStopped(PlayableDirector aDirector)
+    {
+        if (director == aDirector)
+            isPlaying = false;
     }
 }

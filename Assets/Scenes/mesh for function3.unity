@@ -3484,7 +3484,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 714989773}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1280496685}
+        m_TargetAssemblyTypeName: Animation, Assembly-CSharp
+        m_MethodName: PlayStop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &714989773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6032,6 +6044,7 @@ GameObject:
   - component: {fileID: 1280496683}
   - component: {fileID: 1280496682}
   - component: {fileID: 1280496684}
+  - component: {fileID: 1280496685}
   m_Layer: 0
   m_Name: Script
   m_TagString: Untagged
@@ -6130,6 +6143,24 @@ MonoBehaviour:
   icon: {fileID: 2070143740}
   iconOn: {fileID: 21300000, guid: 90b6337c30e730b478352be77babf767, type: 3}
   iconOff: {fileID: 21300000, guid: 619872c6810df3e45ace4311dbed7077, type: 3}
+--- !u!114 &1280496685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280496681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1159e7f71a75349b3d7dddf6c494b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  director: {fileID: 501726453}
+  asset: {fileID: 11400000, guid: a1a5a6f6580052d40a67ad20465f03c1, type: 2}
+  isPlaying: 1
+  icon: {fileID: 714989773}
+  playIcon: {fileID: 21300000, guid: 864ea0b9679a27d4390260afd8c614e2, type: 3}
+  pauseIcon: {fileID: 21300000, guid: fa10deb81e45b1e42a7c9b349dcb4493, type: 3}
 --- !u!1 &1280672936
 GameObject:
   m_ObjectHideFlags: 0
