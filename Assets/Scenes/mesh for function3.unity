@@ -2499,7 +2499,7 @@ PlayableDirector:
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: -4034152834197406973, guid: a1a5a6f6580052d40a67ad20465f03c1, type: 2}
-    value: {fileID: 1143331097}
+    value: {fileID: 539320198}
   - key: {fileID: -2241396615575128604, guid: a1a5a6f6580052d40a67ad20465f03c1, type: 2}
     value: {fileID: 1490700661}
   - key: {fileID: 3997211890564326988, guid: a1a5a6f6580052d40a67ad20465f03c1, type: 2}
@@ -2590,6 +2590,11 @@ GameObject:
 --- !u!1 &539320197 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2334061507936260895, guid: ff5fcc194c5cd7049a7f9347d2c6ca25, type: 3}
+  m_PrefabInstance: {fileID: 539320195}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &539320198 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 411055565, guid: ff5fcc194c5cd7049a7f9347d2c6ca25, type: 3}
   m_PrefabInstance: {fileID: 539320195}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &563595096
@@ -5104,11 +5109,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!95 &1143331097 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 411055565, guid: ff5fcc194c5cd7049a7f9347d2c6ca25, type: 3}
-  m_PrefabInstance: {fileID: 539320195}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1143331098 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8883675250930037256, guid: ff5fcc194c5cd7049a7f9347d2c6ca25, type: 3}
