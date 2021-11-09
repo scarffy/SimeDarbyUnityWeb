@@ -2609,7 +2609,7 @@ PlayableDirector:
   - key: {fileID: 5635992249397678326, guid: a1a5a6f6580052d40a67ad20465f03c1, type: 2}
     value: {fileID: 539320196}
   - key: {fileID: 2725125074986071287, guid: a1a5a6f6580052d40a67ad20465f03c1, type: 2}
-    value: {fileID: 1490700661}
+    value: {fileID: 0}
   - key: {fileID: 4740961317549355210, guid: a1a5a6f6580052d40a67ad20465f03c1, type: 2}
     value: {fileID: 1931689834}
   - key: {fileID: -7865621537957076396, guid: a1a5a6f6580052d40a67ad20465f03c1, type: 2}
@@ -14765,7 +14765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5632193209305139089, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5668565701077119433, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15023,6 +15023,14 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 6662241300942738537, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662241300942738537, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6666524307159196322, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -15209,7 +15217,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 43e4839fa965e2c4181d2673367754fd, type: 2}
     - target: {fileID: 7390007310939112325, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7391604933861167942, guid: 0dbff6be28fb88a47b355da385207690, type: 3}
       propertyPath: m_IsActive
