@@ -5240,7 +5240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 189732070}
-  maxOffsetDistance: 2000
+  maxOffsetDistance: 20
   orbitSpeed: 5
   panSpeed: 0.5
   zoomSpeed: 10
