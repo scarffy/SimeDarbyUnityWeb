@@ -5,13 +5,12 @@ using UnityEngine;
 public class CamRotatePanZoom : MonoBehaviour
 {
     public Transform target;
-    public float maxOffsetDistance = 2000f;
+    public float maxOffsetDistance = 2000f; // How far can a cam go off
     public float orbitSpeed = 15f;
     public float panSpeed = .5f;
     public float zoomSpeed = 10f;
     private Vector3 targetOffset = Vector3.zero;
     private Vector3 targetPosition;
-
 
     // Use this for initialization
     void Start()
@@ -35,7 +34,8 @@ public class CamRotatePanZoom : MonoBehaviour
                 transform.RotateAround(targetPosition, Vector3.up, Input.GetAxis("Mouse X") * orbitSpeed);
                 float pitchAngle = Vector3.Angle(Vector3.up, transform.forward);
                 float pitchDelta = -Input.GetAxis("Mouse Y") * orbitSpeed;
-                float newAngle = Mathf.Clamp(pitchAngle + pitchDelta, 0f, 180f);
+                // To restrict y angle
+                float newAngle = Mathf.Clamp(pitchAngle + pitchDelta, 90f, 180f);
                 pitchDelta = newAngle - pitchAngle;
                 transform.RotateAround(targetPosition, transform.right, pitchDelta);
             }
