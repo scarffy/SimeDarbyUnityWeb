@@ -22,8 +22,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: landscape_pink_grass
+    second: {fileID: 2100000, guid: c0223f1568bce514cbb2b1c662a71a18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: landscappe_bush_lightgreen
+    second: {fileID: 2100000, guid: 26c1bfcbda21e3e42865275a94b2d7e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: landscappe_grass
     second: {fileID: 2100000, guid: ad0cf4fbae5a4d74f94425eda010b38b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roundabout_floor_pillar
+    second: {fileID: 2100000, guid: 508933398e9a0e541a8497418dabac6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roundabout_side1
+    second: {fileID: 2100000, guid: 3f5a694a01ff2b2449e1cb61537d0fb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roundabout_wall
+    second: {fileID: 2100000, guid: c51245ab47e8a574aafd1672366d63e8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
