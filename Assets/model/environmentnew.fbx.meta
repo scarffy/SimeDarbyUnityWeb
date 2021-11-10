@@ -17,6 +17,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: _21
+    second: {fileID: 2100000, guid: af1b9c755ba8d4e42aec61d32142b6d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: _Grass_Dark_Green_2
     second: {fileID: 2100000, guid: 3c1d79a119e8ddb418c183e96965cce2, type: 2}
   - first:
@@ -24,6 +29,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: grass_crete_1
     second: {fileID: 2100000, guid: d67f69b083d1bf54ba7a78d30f3c9e5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: landscape_green
+    second: {fileID: 2100000, guid: 1727a1445ccabd6458a4d2f066673721, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: landscape_purple
+    second: {fileID: 2100000, guid: c0223f1568bce514cbb2b1c662a71a18, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -38,7 +53,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: white
-    second: {fileID: 2100000, guid: bb999136037d79d4da434b075af6eec4, type: 2}
+    second: {fileID: 2100000, guid: a7bd056ec7e29c547b6a6e154ed15c5e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
