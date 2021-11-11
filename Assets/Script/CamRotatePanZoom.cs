@@ -8,9 +8,13 @@ public class CamRotatePanZoom : MonoBehaviour
     public float maxOffsetDistance = 2000f; // How far can a cam go off
     public float orbitSpeed = 15f;
     public float panSpeed = .5f;
-    public float zoomSpeed = 10f;
+   
     private Vector3 targetOffset = Vector3.zero;
     private Vector3 targetPosition;
+
+    //[Header("Zoom")]
+    public float zoomSpeed = 10f;
+   
 
     // Use this for initialization
     void Start()
@@ -48,10 +52,27 @@ public class CamRotatePanZoom : MonoBehaviour
                 targetOffset = newTargetOffset;
             }
 
-
-            // Scroll to Zoom
-            transform.position += transform.forward * Input.GetAxis("Mouse ScrollWheel") * zoomSpeed;
-
+            // transform.position += transform.forward * Input.GetAxis("Mouse ScrollWheel") * zoomSpeed;
+            
+            
         }
+    }
+
+    //public float zoomLevel;
+    //public float sensitivity = 1f;
+    //public float minZoom = -30f;
+    //public float maxZoom = -15f;
+    //float zoomPosition;
+    void Zoom()
+    {
+        //// Scroll to Zoom
+        //// This work but interfere with panning and rotate
+        //zoomLevel += Input.mouseScrollDelta.y * sensitivity;
+        //zoomLevel = Mathf.Clamp(zoomLevel, minZoom, maxZoom);
+        /////
+        //transform.position += target.position + (transform.forward * zoomPosition);
+        //////
+        //zoomPosition = Mathf.MoveTowards(zoomPosition, zoomLevel, zoomSpeed * Time.deltaTime);
+        //transform.position = target.position + (transform.forward * zoomPosition);
     }
 }

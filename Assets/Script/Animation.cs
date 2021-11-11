@@ -54,6 +54,7 @@ public class Animation : MonoBehaviour
 
     private void Update()
     {
+#if UNITY_EDITOR
         if (Input.GetKeyUp(KeyCode.E))
         {
             play();
@@ -66,6 +67,7 @@ public class Animation : MonoBehaviour
         {
             director.playableGraph.Stop();
         }
+#endif
     }
 
     void OnPlayableDirectorStopped(PlayableDirector aDirector)
