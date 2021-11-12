@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8898963901600972376
+--- !u!114 &-8017525743989938107
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11,6 +11,50 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
   m_Name: AnimationPlayableAsset(Clone)
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: -623603649343465320, guid: 4841876273914394c8870418548733ed, type: 3}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_UseTrackMatchFields: 1
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
+  m_ApplyFootIK: 1
+  m_Loop: 0
+  m_Version: 1
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &-7846048712805527513
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+  m_Name: AnimationPlayableAsset(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: -623603649343465320, guid: fb1914fefce2da744b5451c90f25e007, type: 3}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_UseTrackMatchFields: 1
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
+  m_ApplyFootIK: 1
+  m_Loop: 0
+  m_Version: 1
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &-7124993398200666174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+  m_Name: AnimationPlayableAsset(Clone)(Clone)
   m_EditorClassIdentifier: 
   m_Clip: {fileID: -623603649343465320, guid: 4841876273914394c8870418548733ed, type: 3}
   m_Position: {x: 0, y: 0, z: 0}
@@ -69,8 +113,8 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 6550090908749099125}
-    m_Duration: 16.76
-    m_TimeScale: 1
+    m_Duration: 55.866666666666674
+    m_TimeScale: 0.3
     m_ParentTrack: {fileID: -5749497638305949948}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
@@ -135,11 +179,11 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Scene
   - m_Version: 1
-    m_Start: 16.76
+    m_Start: 55.866666666666674
     m_ClipIn: 0
-    m_Asset: {fileID: 504511437719800990}
-    m_Duration: 16.76
-    m_TimeScale: 1
+    m_Asset: {fileID: 6864820595766958212}
+    m_Duration: 55.866666666666674
+    m_TimeScale: 0.3
     m_ParentTrack: {fileID: -5749497638305949948}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
@@ -223,28 +267,6 @@ MonoBehaviour:
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
---- !u!114 &-4417228627633107310
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
-  m_Name: AnimationPlayableAsset(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: -623603649343465320, guid: fb1914fefce2da744b5451c90f25e007, type: 3}
-  m_Position: {x: 0, y: 0, z: 0}
-  m_EulerAngles: {x: 0, y: 0, z: 0}
-  m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
-  m_RemoveStartOffset: 1
-  m_ApplyFootIK: 1
-  m_Loop: 0
-  m_Version: 1
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &-2668464057476892236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -289,11 +311,11 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 4.070000000000004
-    m_ClipIn: 0
-    m_Asset: {fileID: -4417228627633107310}
-    m_Duration: 16.76
-    m_TimeScale: 1
+    m_Start: 0
+    m_ClipIn: 12.689999999999998
+    m_Asset: {fileID: -5943408756381158552}
+    m_Duration: 13.56666666666668
+    m_TimeScale: 0.3
     m_ParentTrack: {fileID: -1348243772901006210}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
@@ -322,11 +344,44 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Scene
   - m_Version: 1
-    m_Start: 20.83000000000001
-    m_ClipIn: 0
-    m_Asset: {fileID: -1024628057229890349}
-    m_Duration: 12.689999999999998
-    m_TimeScale: 1
+    m_Start: 13.56666666666668
+    m_ClipIn: 0.00000000000000011102230246251565
+    m_Asset: {fileID: 5792370487123740936}
+    m_Duration: 55.866666666666646
+    m_TimeScale: 0.3
+    m_ParentTrack: {fileID: -1348243772901006210}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Scene
+  - m_Version: 1
+    m_Start: 69.43333333333332
+    m_ClipIn: 0.00000000000000011102230246251565
+    m_Asset: {fileID: -7846048712805527513}
+    m_Duration: 42.300000000000026
+    m_TimeScale: 0.3
     m_ParentTrack: {fileID: -1348243772901006210}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
@@ -354,39 +409,6 @@ MonoBehaviour:
     m_PostExtrapolationTime: Infinity
     m_PreExtrapolationTime: 0
     m_DisplayName: Scene
-  - m_Version: 1
-    m_Start: 0
-    m_ClipIn: 12.689999999999998
-    m_Asset: {fileID: -5943408756381158552}
-    m_Duration: 4.070000000000004
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -1348243772901006210}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Scene
   m_Markers:
     m_Objects: []
   m_InfiniteClipPreExtrapolation: 0
@@ -407,28 +429,6 @@ MonoBehaviour:
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
---- !u!114 &-1024628057229890349
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
-  m_Name: AnimationPlayableAsset(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: -623603649343465320, guid: fb1914fefce2da744b5451c90f25e007, type: 3}
-  m_Position: {x: 0, y: 0, z: 0}
-  m_EulerAngles: {x: 0, y: 0, z: 0}
-  m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
-  m_RemoveStartOffset: 1
-  m_ApplyFootIK: 1
-  m_Loop: 0
-  m_Version: 1
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &-24338212709591086
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -454,8 +454,8 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 9.433333333333332
     m_Asset: {fileID: -2668464057476892236}
-    m_Duration: 7.32666666666667
-    m_TimeScale: 1
+    m_Duration: 24.422222222222235
+    m_TimeScale: 0.3
     m_ParentTrack: {fileID: -24338212709591086}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
@@ -520,16 +520,16 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Scene
   - m_Version: 1
-    m_Start: 7.326666666666675
-    m_ClipIn: 0
-    m_Asset: {fileID: -8898963901600972376}
-    m_Duration: 16.76
-    m_TimeScale: 1
+    m_Start: 24.422222222222235
+    m_ClipIn: 0.0000000000000000888178419700126
+    m_Asset: {fileID: -8017525743989938107}
+    m_Duration: 55.86666666666668
+    m_TimeScale: 0.3
     m_ParentTrack: {fileID: -24338212709591086}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 0
+    m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -556,7 +556,25 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -571,19 +589,37 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Scene
   - m_Version: 1
-    m_Start: 24.086666666666666
+    m_Start: 80.28888888888892
     m_ClipIn: 0
-    m_Asset: {fileID: 3832221843828813189}
-    m_Duration: 9.433333333333332
-    m_TimeScale: 1
+    m_Asset: {fileID: -7124993398200666174}
+    m_Duration: 31.44444444444443
+    m_TimeScale: 0.3
     m_ParentTrack: {fileID: -24338212709591086}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0
+    m_BlendInDuration: -1
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -666,8 +702,8 @@ MonoBehaviour:
     m_Start: 0.0000000000000009992007221626409
     m_ClipIn: 0
     m_Asset: {fileID: 4369739313060553473}
-    m_Duration: 16.76
-    m_TimeScale: 1
+    m_Duration: 55.866666666666674
+    m_TimeScale: 0.3
     m_ParentTrack: {fileID: -20029834402919745}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
@@ -714,11 +750,11 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0.0000000000000009992007221626409
     m_DisplayName: Scene
   - m_Version: 1
-    m_Start: 16.76
+    m_Start: 55.866666666666674
     m_ClipIn: 0
-    m_Asset: {fileID: 1091296867845020244}
-    m_Duration: 16.76
-    m_TimeScale: 1
+    m_Asset: {fileID: 6495096861012107891}
+    m_Duration: 55.866666666666674
+    m_TimeScale: 0.3
     m_ParentTrack: {fileID: -20029834402919745}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
@@ -808,50 +844,6 @@ MonoBehaviour:
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 2284481693967899770}
---- !u!114 &504511437719800990
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
-  m_Name: AnimationPlayableAsset(Clone)
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: -623603649343465320, guid: fb1914fefce2da744b5451c90f25e007, type: 3}
-  m_Position: {x: 0, y: 0, z: 0}
-  m_EulerAngles: {x: 0, y: 0, z: 0}
-  m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
-  m_RemoveStartOffset: 1
-  m_ApplyFootIK: 1
-  m_Loop: 0
-  m_Version: 1
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!114 &1091296867845020244
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
-  m_Name: AnimationPlayableAsset(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: -623603649343465320, guid: 4841876273914394c8870418548733ed, type: 3}
-  m_Position: {x: 0, y: 0, z: 0}
-  m_EulerAngles: {x: 0, y: 0, z: 0}
-  m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
-  m_RemoveStartOffset: 1
-  m_ApplyFootIK: 1
-  m_Loop: 0
-  m_Version: 1
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &2284481693967899770
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -875,28 +867,6 @@ MonoBehaviour:
   m_Clips: []
   m_Markers:
     m_Objects: []
---- !u!114 &3832221843828813189
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
-  m_Name: AnimationPlayableAsset(Clone)
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: -623603649343465320, guid: 4841876273914394c8870418548733ed, type: 3}
-  m_Position: {x: 0, y: 0, z: 0}
-  m_EulerAngles: {x: 0, y: 0, z: 0}
-  m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
-  m_RemoveStartOffset: 1
-  m_ApplyFootIK: 1
-  m_Loop: 0
-  m_Version: 1
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &4369739313060553473
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -919,6 +889,50 @@ MonoBehaviour:
   m_Loop: 0
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &5792370487123740936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+  m_Name: AnimationPlayableAsset(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: -623603649343465320, guid: fb1914fefce2da744b5451c90f25e007, type: 3}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_UseTrackMatchFields: 1
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
+  m_ApplyFootIK: 1
+  m_Loop: 0
+  m_Version: 1
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &6495096861012107891
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+  m_Name: AnimationPlayableAsset(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: -623603649343465320, guid: 4841876273914394c8870418548733ed, type: 3}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_UseTrackMatchFields: 1
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
+  m_ApplyFootIK: 1
+  m_Loop: 0
+  m_Version: 1
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &6550090908749099125
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -930,6 +944,28 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
   m_Name: AnimationPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: -623603649343465320, guid: fb1914fefce2da744b5451c90f25e007, type: 3}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_UseTrackMatchFields: 1
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
+  m_ApplyFootIK: 1
+  m_Loop: 0
+  m_Version: 1
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &6864820595766958212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+  m_Name: AnimationPlayableAsset(Clone)
   m_EditorClassIdentifier: 
   m_Clip: {fileID: -623603649343465320, guid: fb1914fefce2da744b5451c90f25e007, type: 3}
   m_Position: {x: 0, y: 0, z: 0}
