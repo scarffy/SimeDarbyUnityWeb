@@ -15,7 +15,17 @@ public class Compass : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        int y = SceneManager.GetActiveScene().buildIndex;
+
+        switch (y)
+        {
+            case 0: 
+                offset = 215f; 
+                break;
+            case 1:
+                offset = 30f;
+                break;
+        }
     }
 
     // Update is called once per frame
