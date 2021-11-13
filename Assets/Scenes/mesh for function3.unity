@@ -6577,6 +6577,7 @@ GameObject:
   - component: {fileID: 1280496682}
   - component: {fileID: 1280496684}
   - component: {fileID: 1280496685}
+  - component: {fileID: 1280496686}
   m_Layer: 0
   m_Name: Script
   m_TagString: Untagged
@@ -6693,6 +6694,20 @@ MonoBehaviour:
   icon: {fileID: 714989773}
   playIcon: {fileID: 21300000, guid: 864ea0b9679a27d4390260afd8c614e2, type: 3}
   pauseIcon: {fileID: 21300000, guid: fa10deb81e45b1e42a7c9b349dcb4493, type: 3}
+--- !u!114 &1280496686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280496681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f873bc125f9859449a554ea16699ef17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraTransform: {fileID: 1070257893}
+  compass: {fileID: 49371141}
 --- !u!1 &1280672936
 GameObject:
   m_ObjectHideFlags: 0
@@ -12583,7 +12598,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0.0000038146973, y: 49.831}
+  m_AnchoredPosition: {x: 0.0000038146973, y: 49.831055}
   m_SizeDelta: {x: 558.5165, y: 111.3373}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1921931014
@@ -13080,7 +13095,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2013022781
 RectTransform:
   m_ObjectHideFlags: 0
