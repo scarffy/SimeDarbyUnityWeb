@@ -794,6 +794,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1280496687}
+        m_TargetAssemblyTypeName: MenuTooltip, Assembly-CSharp
+        m_MethodName: ToggleTooltip
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &83950169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2430,6 +2442,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: OpenSection, Assembly-CSharp
         m_MethodName: LeftWallLogic
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1280496687}
+        m_TargetAssemblyTypeName: MenuTooltip, Assembly-CSharp
+        m_MethodName: ToggleTooltip
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5936,6 +5960,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1280496687}
+        m_TargetAssemblyTypeName: MenuTooltip, Assembly-CSharp
+        m_MethodName: ToggleTooltip
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1177435193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6671,6 +6707,7 @@ GameObject:
   - component: {fileID: 1280496684}
   - component: {fileID: 1280496685}
   - component: {fileID: 1280496686}
+  - component: {fileID: 1280496687}
   m_Layer: 0
   m_Name: Script
   m_TagString: Untagged
@@ -6794,7 +6831,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280496681}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f873bc125f9859449a554ea16699ef17, type: 3}
   m_Name: 
@@ -6802,6 +6839,24 @@ MonoBehaviour:
   cameraTransform: {fileID: 1070257893}
   compass: {fileID: 49371141}
   offset: 0
+--- !u!114 &1280496687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280496681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bfe48959e39f6c4e95afc9648513fb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sectionScript: {fileID: 1280496684}
+  textObj: {fileID: 1947648002}
+  leftWallIcon: {fileID: 460359674}
+  rightWallIcon: {fileID: 1177435195}
+  roofIcon: {fileID: 1737460238}
+  buildingIcon: {fileID: 83950171}
 --- !u!1 &1280672936
 GameObject:
   m_ObjectHideFlags: 0
@@ -11319,6 +11374,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1280496687}
+        m_TargetAssemblyTypeName: MenuTooltip, Assembly-CSharp
+        m_MethodName: ToggleTooltip
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1737460236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12869,7 +12936,7 @@ GameObject:
   - component: {fileID: 1947648003}
   - component: {fileID: 1947648002}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP) - Tooltip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13189,7 +13256,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2013022781
 RectTransform:
   m_ObjectHideFlags: 0
